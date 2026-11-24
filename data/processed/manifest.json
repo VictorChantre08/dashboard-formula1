@@ -1,0 +1,24 @@
+{
+  "source": "https://github.com/f1db/f1db",
+  "license": "CC BY 4.0",
+  "commit": "9dbbb9f67dc5fa3d499061efb56d24aa4f1e261d",
+  "commit_date": "2026-11-22",
+  "release": "v2026.21.0",
+  "rows": {
+    "Calendario": 23,
+    "Pilotos": 36,
+    "Equipes": 11,
+    "Equipe_Pilotos": 39,
+    "Resultados_Corrida": 462,
+    "Resultados_Sprint": 132,
+    "Qualificacao": 585,
+    "Grid_Largada": 462,
+    "Pit_Stops": 724,
+    "Voltas_Rapidas": 447,
+    "Piloto_do_Dia": 105,
+    "Classif_Pilotos": 25,
+    "Classif_Construtores": 11,
+    "Classif_Pilotos_Rodada": 476,
+    "Classif_Construtores_Rodada": 231
+  }
+}

@@ -1,0 +1,232 @@
+Rodada,GP,Data,Equipe_ID,Equipe,Posicao,Pontos
+1,Australian Grand Prix,2026-03-08,mercedes,Mercedes,1,43
+1,Australian Grand Prix,2026-03-08,ferrari,Ferrari,2,27
+1,Australian Grand Prix,2026-03-08,mclaren,McLaren,3,10
+1,Australian Grand Prix,2026-03-08,red-bull,Red Bull,4,8
+1,Australian Grand Prix,2026-03-08,haas,Haas,5,6
+1,Australian Grand Prix,2026-03-08,racing-bulls,Racing Bulls,6,4
+1,Australian Grand Prix,2026-03-08,audi,Audi,7,2
+1,Australian Grand Prix,2026-03-08,alpine,Alpine,8,1
+1,Australian Grand Prix,2026-03-08,williams,Williams,9,0
+1,Australian Grand Prix,2026-03-08,cadillac,Cadillac,10,0
+1,Australian Grand Prix,2026-03-08,aston-martin,Aston Martin,11,0
+2,Chinese Grand Prix,2026-03-15,mercedes,Mercedes,1,98
+2,Chinese Grand Prix,2026-03-15,ferrari,Ferrari,2,67
+2,Chinese Grand Prix,2026-03-15,mclaren,McLaren,3,18
+2,Chinese Grand Prix,2026-03-15,haas,Haas,4,17
+2,Chinese Grand Prix,2026-03-15,red-bull,Red Bull,5,12
+2,Chinese Grand Prix,2026-03-15,racing-bulls,Racing Bulls,6,12
+2,Chinese Grand Prix,2026-03-15,alpine,Alpine,7,10
+2,Chinese Grand Prix,2026-03-15,audi,Audi,8,2
+2,Chinese Grand Prix,2026-03-15,williams,Williams,9,2
+2,Chinese Grand Prix,2026-03-15,cadillac,Cadillac,10,0
+2,Chinese Grand Prix,2026-03-15,aston-martin,Aston Martin,11,0
+3,Japanese Grand Prix,2026-03-29,mercedes,Mercedes,1,135
+3,Japanese Grand Prix,2026-03-29,ferrari,Ferrari,2,90
+3,Japanese Grand Prix,2026-03-29,mclaren,McLaren,3,46
+3,Japanese Grand Prix,2026-03-29,haas,Haas,4,18
+3,Japanese Grand Prix,2026-03-29,alpine,Alpine,5,16
+3,Japanese Grand Prix,2026-03-29,red-bull,Red Bull,6,16
+3,Japanese Grand Prix,2026-03-29,racing-bulls,Racing Bulls,7,14
+3,Japanese Grand Prix,2026-03-29,audi,Audi,8,2
+3,Japanese Grand Prix,2026-03-29,williams,Williams,9,2
+3,Japanese Grand Prix,2026-03-29,cadillac,Cadillac,10,0
+3,Japanese Grand Prix,2026-03-29,aston-martin,Aston Martin,11,0
+4,Miami Grand Prix,2026-05-03,mercedes,Mercedes,1,180
+4,Miami Grand Prix,2026-05-03,ferrari,Ferrari,2,110
+4,Miami Grand Prix,2026-05-03,mclaren,McLaren,3,94
+4,Miami Grand Prix,2026-05-03,red-bull,Red Bull,4,30
+4,Miami Grand Prix,2026-05-03,alpine,Alpine,5,23
+4,Miami Grand Prix,2026-05-03,haas,Haas,6,18
+4,Miami Grand Prix,2026-05-03,racing-bulls,Racing Bulls,7,14
+4,Miami Grand Prix,2026-05-03,williams,Williams,8,5
+4,Miami Grand Prix,2026-05-03,audi,Audi,9,2
+4,Miami Grand Prix,2026-05-03,cadillac,Cadillac,10,0
+4,Miami Grand Prix,2026-05-03,aston-martin,Aston Martin,11,0
+5,Canadian Grand Prix,2026-05-24,mercedes,Mercedes,1,219
+5,Canadian Grand Prix,2026-05-24,ferrari,Ferrari,2,147
+5,Canadian Grand Prix,2026-05-24,mclaren,McLaren,3,106
+5,Canadian Grand Prix,2026-05-24,red-bull,Red Bull,4,57
+5,Canadian Grand Prix,2026-05-24,alpine,Alpine,5,35
+5,Canadian Grand Prix,2026-05-24,racing-bulls,Racing Bulls,6,21
+5,Canadian Grand Prix,2026-05-24,haas,Haas,7,19
+5,Canadian Grand Prix,2026-05-24,williams,Williams,8,7
+5,Canadian Grand Prix,2026-05-24,audi,Audi,9,2
+5,Canadian Grand Prix,2026-05-24,cadillac,Cadillac,10,0
+5,Canadian Grand Prix,2026-05-24,aston-martin,Aston Martin,11,0
+6,Monaco Grand Prix,2026-06-07,mercedes,Mercedes,1,244
+6,Monaco Grand Prix,2026-06-07,ferrari,Ferrari,2,165
+6,Monaco Grand Prix,2026-06-07,mclaren,McLaren,3,118
+6,Monaco Grand Prix,2026-06-07,red-bull,Red Bull,4,72
+6,Monaco Grand Prix,2026-06-07,alpine,Alpine,5,41
+6,Monaco Grand Prix,2026-06-07,racing-bulls,Racing Bulls,6,39
+6,Monaco Grand Prix,2026-06-07,haas,Haas,7,21
+6,Monaco Grand Prix,2026-06-07,williams,Williams,8,11
+6,Monaco Grand Prix,2026-06-07,audi,Audi,9,2
+6,Monaco Grand Prix,2026-06-07,aston-martin,Aston Martin,10,1
+6,Monaco Grand Prix,2026-06-07,cadillac,Cadillac,11,0
+7,Barcelona-Catalunya Grand Prix,2026-06-14,mercedes,Mercedes,1,262
+7,Barcelona-Catalunya Grand Prix,2026-06-14,ferrari,Ferrari,2,190
+7,Barcelona-Catalunya Grand Prix,2026-06-14,mclaren,McLaren,3,143
+7,Barcelona-Catalunya Grand Prix,2026-06-14,red-bull,Red Bull,4,92
+7,Barcelona-Catalunya Grand Prix,2026-06-14,alpine,Alpine,5,48
+7,Barcelona-Catalunya Grand Prix,2026-06-14,racing-bulls,Racing Bulls,6,45
+7,Barcelona-Catalunya Grand Prix,2026-06-14,haas,Haas,7,21
+7,Barcelona-Catalunya Grand Prix,2026-06-14,williams,Williams,8,11
+7,Barcelona-Catalunya Grand Prix,2026-06-14,audi,Audi,9,2
+7,Barcelona-Catalunya Grand Prix,2026-06-14,aston-martin,Aston Martin,10,1
+7,Barcelona-Catalunya Grand Prix,2026-06-14,cadillac,Cadillac,11,0
+8,Austrian Grand Prix,2026-06-28,mercedes,Mercedes,1,302
+8,Austrian Grand Prix,2026-06-28,ferrari,Ferrari,2,204
+8,Austrian Grand Prix,2026-06-28,mclaren,McLaren,3,161
+8,Austrian Grand Prix,2026-06-28,red-bull,Red Bull,4,118
+8,Austrian Grand Prix,2026-06-28,racing-bulls,Racing Bulls,5,48
+8,Austrian Grand Prix,2026-06-28,alpine,Alpine,6,48
+8,Austrian Grand Prix,2026-06-28,haas,Haas,7,21
+8,Austrian Grand Prix,2026-06-28,williams,Williams,8,11
+8,Austrian Grand Prix,2026-06-28,audi,Audi,9,2
+8,Austrian Grand Prix,2026-06-28,aston-martin,Aston Martin,10,1
+8,Austrian Grand Prix,2026-06-28,cadillac,Cadillac,11,0
+9,British Grand Prix,2026-07-05,mercedes,Mercedes,1,333
+9,British Grand Prix,2026-07-05,ferrari,Ferrari,2,255
+9,British Grand Prix,2026-07-05,mclaren,McLaren,3,181
+9,British Grand Prix,2026-07-05,red-bull,Red Bull,4,131
+9,British Grand Prix,2026-07-05,racing-bulls,Racing Bulls,5,63
+9,British Grand Prix,2026-07-05,alpine,Alpine,6,51
+9,British Grand Prix,2026-07-05,haas,Haas,7,21
+9,British Grand Prix,2026-07-05,williams,Williams,8,11
+9,British Grand Prix,2026-07-05,audi,Audi,9,6
+9,British Grand Prix,2026-07-05,aston-martin,Aston Martin,10,1
+9,British Grand Prix,2026-07-05,cadillac,Cadillac,11,0
+10,Belgian Grand Prix,2026-07-19,mercedes,Mercedes,1,358
+10,Belgian Grand Prix,2026-07-19,ferrari,Ferrari,2,285
+10,Belgian Grand Prix,2026-07-19,mclaren,McLaren,3,197
+10,Belgian Grand Prix,2026-07-19,red-bull,Red Bull,4,154
+10,Belgian Grand Prix,2026-07-19,racing-bulls,Racing Bulls,5,65
+10,Belgian Grand Prix,2026-07-19,alpine,Alpine,6,52
+10,Belgian Grand Prix,2026-07-19,haas,Haas,7,21
+10,Belgian Grand Prix,2026-07-19,williams,Williams,8,11
+10,Belgian Grand Prix,2026-07-19,audi,Audi,9,10
+10,Belgian Grand Prix,2026-07-19,aston-martin,Aston Martin,10,1
+10,Belgian Grand Prix,2026-07-19,cadillac,Cadillac,11,0
+11,Hungarian Grand Prix,2026-07-26,mercedes,Mercedes,1,379
+11,Hungarian Grand Prix,2026-07-26,ferrari,Ferrari,2,307
+11,Hungarian Grand Prix,2026-07-26,mclaren,McLaren,3,222
+11,Hungarian Grand Prix,2026-07-26,red-bull,Red Bull,4,180
+11,Hungarian Grand Prix,2026-07-26,racing-bulls,Racing Bulls,5,70
+11,Hungarian Grand Prix,2026-07-26,alpine,Alpine,6,52
+11,Hungarian Grand Prix,2026-07-26,haas,Haas,7,21
+11,Hungarian Grand Prix,2026-07-26,audi,Audi,8,12
+11,Hungarian Grand Prix,2026-07-26,williams,Williams,9,11
+11,Hungarian Grand Prix,2026-07-26,aston-martin,Aston Martin,10,1
+11,Hungarian Grand Prix,2026-07-26,cadillac,Cadillac,11,0
+12,Dutch Grand Prix,2026-08-23,mercedes,Mercedes,1,425
+12,Dutch Grand Prix,2026-08-23,ferrari,Ferrari,2,338
+12,Dutch Grand Prix,2026-08-23,mclaren,McLaren,3,265
+12,Dutch Grand Prix,2026-08-23,red-bull,Red Bull,4,189
+12,Dutch Grand Prix,2026-08-23,racing-bulls,Racing Bulls,5,70
+12,Dutch Grand Prix,2026-08-23,alpine,Alpine,6,54
+12,Dutch Grand Prix,2026-08-23,haas,Haas,7,21
+12,Dutch Grand Prix,2026-08-23,audi,Audi,8,16
+12,Dutch Grand Prix,2026-08-23,williams,Williams,9,11
+12,Dutch Grand Prix,2026-08-23,aston-martin,Aston Martin,10,3
+12,Dutch Grand Prix,2026-08-23,cadillac,Cadillac,11,0
+13,Italian Grand Prix,2026-09-06,mercedes,Mercedes,1,468
+13,Italian Grand Prix,2026-09-06,ferrari,Ferrari,2,346
+13,Italian Grand Prix,2026-09-06,mclaren,McLaren,3,287
+13,Italian Grand Prix,2026-09-06,red-bull,Red Bull,4,204
+13,Italian Grand Prix,2026-09-06,racing-bulls,Racing Bulls,5,75
+13,Italian Grand Prix,2026-09-06,alpine,Alpine,6,62
+13,Italian Grand Prix,2026-09-06,haas,Haas,7,21
+13,Italian Grand Prix,2026-09-06,audi,Audi,8,16
+13,Italian Grand Prix,2026-09-06,williams,Williams,9,11
+13,Italian Grand Prix,2026-09-06,aston-martin,Aston Martin,10,3
+13,Italian Grand Prix,2026-09-06,cadillac,Cadillac,11,0
+14,Spanish Grand Prix,2026-09-13,mercedes,Mercedes,1,503
+14,Spanish Grand Prix,2026-09-13,ferrari,Ferrari,2,358
+14,Spanish Grand Prix,2026-09-13,mclaren,McLaren,3,306
+14,Spanish Grand Prix,2026-09-13,red-bull,Red Bull,4,230
+14,Spanish Grand Prix,2026-09-13,racing-bulls,Racing Bulls,5,77
+14,Spanish Grand Prix,2026-09-13,alpine,Alpine,6,68
+14,Spanish Grand Prix,2026-09-13,haas,Haas,7,21
+14,Spanish Grand Prix,2026-09-13,audi,Audi,8,17
+14,Spanish Grand Prix,2026-09-13,williams,Williams,9,11
+14,Spanish Grand Prix,2026-09-13,aston-martin,Aston Martin,10,3
+14,Spanish Grand Prix,2026-09-13,cadillac,Cadillac,11,0
+15,Azerbaijan Grand Prix,2026-09-26,mercedes,Mercedes,1,538
+15,Azerbaijan Grand Prix,2026-09-26,ferrari,Ferrari,2,378
+15,Azerbaijan Grand Prix,2026-09-26,mclaren,McLaren,3,306
+15,Azerbaijan Grand Prix,2026-09-26,red-bull,Red Bull,4,263
+15,Azerbaijan Grand Prix,2026-09-26,racing-bulls,Racing Bulls,5,83
+15,Azerbaijan Grand Prix,2026-09-26,alpine,Alpine,6,68
+15,Azerbaijan Grand Prix,2026-09-26,haas,Haas,7,27
+15,Azerbaijan Grand Prix,2026-09-26,audi,Audi,8,17
+15,Azerbaijan Grand Prix,2026-09-26,williams,Williams,9,12
+15,Azerbaijan Grand Prix,2026-09-26,aston-martin,Aston Martin,10,3
+15,Azerbaijan Grand Prix,2026-09-26,cadillac,Cadillac,11,0
+16,Bahrain Grand Prix,2026-10-04,mercedes,Mercedes,1,556
+16,Bahrain Grand Prix,2026-10-04,ferrari,Ferrari,2,405
+16,Bahrain Grand Prix,2026-10-04,mclaren,McLaren,3,316
+16,Bahrain Grand Prix,2026-10-04,red-bull,Red Bull,4,298
+16,Bahrain Grand Prix,2026-10-04,racing-bulls,Racing Bulls,5,90
+16,Bahrain Grand Prix,2026-10-04,alpine,Alpine,6,68
+16,Bahrain Grand Prix,2026-10-04,haas,Haas,7,27
+16,Bahrain Grand Prix,2026-10-04,audi,Audi,8,17
+16,Bahrain Grand Prix,2026-10-04,williams,Williams,9,12
+16,Bahrain Grand Prix,2026-10-04,aston-martin,Aston Martin,10,7
+16,Bahrain Grand Prix,2026-10-04,cadillac,Cadillac,11,0
+17,Singapore Grand Prix,2026-10-11,mercedes,Mercedes,1,578
+17,Singapore Grand Prix,2026-10-11,ferrari,Ferrari,2,444
+17,Singapore Grand Prix,2026-10-11,mclaren,McLaren,3,339
+17,Singapore Grand Prix,2026-10-11,red-bull,Red Bull,4,332
+17,Singapore Grand Prix,2026-10-11,racing-bulls,Racing Bulls,5,100
+17,Singapore Grand Prix,2026-10-11,alpine,Alpine,6,68
+17,Singapore Grand Prix,2026-10-11,haas,Haas,7,30
+17,Singapore Grand Prix,2026-10-11,audi,Audi,8,23
+17,Singapore Grand Prix,2026-10-11,williams,Williams,9,12
+17,Singapore Grand Prix,2026-10-11,aston-martin,Aston Martin,10,7
+17,Singapore Grand Prix,2026-10-11,cadillac,Cadillac,11,0
+18,United States Grand Prix,2026-10-25,mercedes,Mercedes,1,607
+18,United States Grand Prix,2026-10-25,ferrari,Ferrari,2,474
+18,United States Grand Prix,2026-10-25,red-bull,Red Bull,3,355
+18,United States Grand Prix,2026-10-25,mclaren,McLaren,4,355
+18,United States Grand Prix,2026-10-25,racing-bulls,Racing Bulls,5,102
+18,United States Grand Prix,2026-10-25,alpine,Alpine,6,69
+18,United States Grand Prix,2026-10-25,haas,Haas,7,30
+18,United States Grand Prix,2026-10-25,audi,Audi,8,23
+18,United States Grand Prix,2026-10-25,williams,Williams,9,12
+18,United States Grand Prix,2026-10-25,aston-martin,Aston Martin,10,7
+18,United States Grand Prix,2026-10-25,cadillac,Cadillac,11,0
+19,Mexican Grand Prix,2026-11-01,mercedes,Mercedes,1,630
+19,Mexican Grand Prix,2026-11-01,ferrari,Ferrari,2,504
+19,Mexican Grand Prix,2026-11-01,red-bull,Red Bull,3,382
+19,Mexican Grand Prix,2026-11-01,mclaren,McLaren,4,365
+19,Mexican Grand Prix,2026-11-01,racing-bulls,Racing Bulls,5,108
+19,Mexican Grand Prix,2026-11-01,alpine,Alpine,6,69
+19,Mexican Grand Prix,2026-11-01,haas,Haas,7,31
+19,Mexican Grand Prix,2026-11-01,audi,Audi,8,27
+19,Mexican Grand Prix,2026-11-01,williams,Williams,9,12
+19,Mexican Grand Prix,2026-11-01,aston-martin,Aston Martin,10,7
+19,Mexican Grand Prix,2026-11-01,cadillac,Cadillac,11,0
+20,São Paulo Grand Prix,2026-11-08,mercedes,Mercedes,1,652
+20,São Paulo Grand Prix,2026-11-08,ferrari,Ferrari,2,510
+20,São Paulo Grand Prix,2026-11-08,red-bull,Red Bull,3,415
+20,São Paulo Grand Prix,2026-11-08,mclaren,McLaren,4,398
+20,São Paulo Grand Prix,2026-11-08,racing-bulls,Racing Bulls,5,114
+20,São Paulo Grand Prix,2026-11-08,alpine,Alpine,6,69
+20,São Paulo Grand Prix,2026-11-08,haas,Haas,7,31
+20,São Paulo Grand Prix,2026-11-08,audi,Audi,8,28
+20,São Paulo Grand Prix,2026-11-08,williams,Williams,9,12
+20,São Paulo Grand Prix,2026-11-08,aston-martin,Aston Martin,10,7
+20,São Paulo Grand Prix,2026-11-08,cadillac,Cadillac,11,0
+21,Las Vegas Grand Prix,2026-11-22,mercedes,Mercedes,1,666
+21,Las Vegas Grand Prix,2026-11-22,ferrari,Ferrari,2,517
+21,Las Vegas Grand Prix,2026-11-22,red-bull,Red Bull,3,440
+21,Las Vegas Grand Prix,2026-11-22,mclaren,McLaren,4,431
+21,Las Vegas Grand Prix,2026-11-22,racing-bulls,Racing Bulls,5,114
+21,Las Vegas Grand Prix,2026-11-22,alpine,Alpine,6,87
+21,Las Vegas Grand Prix,2026-11-22,haas,Haas,7,31
+21,Las Vegas Grand Prix,2026-11-22,audi,Audi,8,28
+21,Las Vegas Grand Prix,2026-11-22,williams,Williams,9,16
+21,Las Vegas Grand Prix,2026-11-22,aston-martin,Aston Martin,10,7
+21,Las Vegas Grand Prix,2026-11-22,cadillac,Cadillac,11,0

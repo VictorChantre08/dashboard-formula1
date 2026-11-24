@@ -1,0 +1,477 @@
+Rodada,GP,Data,Piloto_ID,Piloto,Posicao,Pontos
+1,Australian Grand Prix,2026-03-08,george-russell,George Russell,1,25
+1,Australian Grand Prix,2026-03-08,kimi-antonelli,Kimi Antonelli,2,18
+1,Australian Grand Prix,2026-03-08,charles-leclerc,Charles Leclerc,3,15
+1,Australian Grand Prix,2026-03-08,lewis-hamilton,Lewis Hamilton,4,12
+1,Australian Grand Prix,2026-03-08,lando-norris,Lando Norris,5,10
+1,Australian Grand Prix,2026-03-08,max-verstappen,Max Verstappen,6,8
+1,Australian Grand Prix,2026-03-08,oliver-bearman,Oliver Bearman,7,6
+1,Australian Grand Prix,2026-03-08,arvid-lindblad,Arvid Lindblad,8,4
+1,Australian Grand Prix,2026-03-08,gabriel-bortoleto,Gabriel Bortoleto,9,2
+1,Australian Grand Prix,2026-03-08,pierre-gasly,Pierre Gasly,10,1
+1,Australian Grand Prix,2026-03-08,esteban-ocon,Esteban Ocon,11,0
+1,Australian Grand Prix,2026-03-08,alexander-albon,Alexander Albon,12,0
+1,Australian Grand Prix,2026-03-08,liam-lawson,Liam Lawson,13,0
+1,Australian Grand Prix,2026-03-08,franco-colapinto,Franco Colapinto,14,0
+1,Australian Grand Prix,2026-03-08,carlos-sainz-jr,Carlos Sainz Jr.,15,0
+1,Australian Grand Prix,2026-03-08,sergio-perez,Sergio Pérez,16,0
+1,Australian Grand Prix,2026-03-08,isack-hadjar,Isack Hadjar,17,0
+1,Australian Grand Prix,2026-03-08,oscar-piastri,Oscar Piastri,18,0
+1,Australian Grand Prix,2026-03-08,nico-hulkenberg,Nico Hülkenberg,19,0
+1,Australian Grand Prix,2026-03-08,fernando-alonso,Fernando Alonso,20,0
+1,Australian Grand Prix,2026-03-08,valtteri-bottas,Valtteri Bottas,21,0
+2,Chinese Grand Prix,2026-03-15,george-russell,George Russell,1,51
+2,Chinese Grand Prix,2026-03-15,kimi-antonelli,Kimi Antonelli,2,47
+2,Chinese Grand Prix,2026-03-15,charles-leclerc,Charles Leclerc,3,34
+2,Chinese Grand Prix,2026-03-15,lewis-hamilton,Lewis Hamilton,4,33
+2,Chinese Grand Prix,2026-03-15,oliver-bearman,Oliver Bearman,5,17
+2,Chinese Grand Prix,2026-03-15,lando-norris,Lando Norris,6,15
+2,Chinese Grand Prix,2026-03-15,pierre-gasly,Pierre Gasly,7,9
+2,Chinese Grand Prix,2026-03-15,max-verstappen,Max Verstappen,8,8
+2,Chinese Grand Prix,2026-03-15,liam-lawson,Liam Lawson,9,8
+2,Chinese Grand Prix,2026-03-15,arvid-lindblad,Arvid Lindblad,10,4
+2,Chinese Grand Prix,2026-03-15,isack-hadjar,Isack Hadjar,11,4
+2,Chinese Grand Prix,2026-03-15,oscar-piastri,Oscar Piastri,12,3
+2,Chinese Grand Prix,2026-03-15,carlos-sainz-jr,Carlos Sainz Jr.,13,2
+2,Chinese Grand Prix,2026-03-15,gabriel-bortoleto,Gabriel Bortoleto,14,2
+2,Chinese Grand Prix,2026-03-15,franco-colapinto,Franco Colapinto,15,1
+2,Chinese Grand Prix,2026-03-15,esteban-ocon,Esteban Ocon,16,0
+2,Chinese Grand Prix,2026-03-15,nico-hulkenberg,Nico Hülkenberg,17,0
+2,Chinese Grand Prix,2026-03-15,alexander-albon,Alexander Albon,18,0
+2,Chinese Grand Prix,2026-03-15,valtteri-bottas,Valtteri Bottas,19,0
+2,Chinese Grand Prix,2026-03-15,sergio-perez,Sergio Pérez,20,0
+2,Chinese Grand Prix,2026-03-15,fernando-alonso,Fernando Alonso,21,0
+2,Chinese Grand Prix,2026-03-15,lance-stroll,Lance Stroll,22,0
+3,Japanese Grand Prix,2026-03-29,kimi-antonelli,Kimi Antonelli,1,72
+3,Japanese Grand Prix,2026-03-29,george-russell,George Russell,2,63
+3,Japanese Grand Prix,2026-03-29,charles-leclerc,Charles Leclerc,3,49
+3,Japanese Grand Prix,2026-03-29,lewis-hamilton,Lewis Hamilton,4,41
+3,Japanese Grand Prix,2026-03-29,lando-norris,Lando Norris,5,25
+3,Japanese Grand Prix,2026-03-29,oscar-piastri,Oscar Piastri,6,21
+3,Japanese Grand Prix,2026-03-29,oliver-bearman,Oliver Bearman,7,17
+3,Japanese Grand Prix,2026-03-29,pierre-gasly,Pierre Gasly,8,15
+3,Japanese Grand Prix,2026-03-29,max-verstappen,Max Verstappen,9,12
+3,Japanese Grand Prix,2026-03-29,liam-lawson,Liam Lawson,10,10
+3,Japanese Grand Prix,2026-03-29,arvid-lindblad,Arvid Lindblad,11,4
+3,Japanese Grand Prix,2026-03-29,isack-hadjar,Isack Hadjar,12,4
+3,Japanese Grand Prix,2026-03-29,gabriel-bortoleto,Gabriel Bortoleto,13,2
+3,Japanese Grand Prix,2026-03-29,carlos-sainz-jr,Carlos Sainz Jr.,14,2
+3,Japanese Grand Prix,2026-03-29,esteban-ocon,Esteban Ocon,15,1
+3,Japanese Grand Prix,2026-03-29,franco-colapinto,Franco Colapinto,16,1
+3,Japanese Grand Prix,2026-03-29,nico-hulkenberg,Nico Hülkenberg,17,0
+3,Japanese Grand Prix,2026-03-29,alexander-albon,Alexander Albon,18,0
+3,Japanese Grand Prix,2026-03-29,valtteri-bottas,Valtteri Bottas,19,0
+3,Japanese Grand Prix,2026-03-29,sergio-perez,Sergio Pérez,20,0
+3,Japanese Grand Prix,2026-03-29,fernando-alonso,Fernando Alonso,21,0
+3,Japanese Grand Prix,2026-03-29,lance-stroll,Lance Stroll,22,0
+4,Miami Grand Prix,2026-05-03,kimi-antonelli,Kimi Antonelli,1,100
+4,Miami Grand Prix,2026-05-03,george-russell,George Russell,2,80
+4,Miami Grand Prix,2026-05-03,charles-leclerc,Charles Leclerc,3,59
+4,Miami Grand Prix,2026-05-03,lando-norris,Lando Norris,4,51
+4,Miami Grand Prix,2026-05-03,lewis-hamilton,Lewis Hamilton,5,51
+4,Miami Grand Prix,2026-05-03,oscar-piastri,Oscar Piastri,6,43
+4,Miami Grand Prix,2026-05-03,max-verstappen,Max Verstappen,7,26
+4,Miami Grand Prix,2026-05-03,oliver-bearman,Oliver Bearman,8,17
+4,Miami Grand Prix,2026-05-03,pierre-gasly,Pierre Gasly,9,16
+4,Miami Grand Prix,2026-05-03,liam-lawson,Liam Lawson,10,10
+4,Miami Grand Prix,2026-05-03,franco-colapinto,Franco Colapinto,11,7
+4,Miami Grand Prix,2026-05-03,arvid-lindblad,Arvid Lindblad,12,4
+4,Miami Grand Prix,2026-05-03,isack-hadjar,Isack Hadjar,13,4
+4,Miami Grand Prix,2026-05-03,carlos-sainz-jr,Carlos Sainz Jr.,14,4
+4,Miami Grand Prix,2026-05-03,gabriel-bortoleto,Gabriel Bortoleto,15,2
+4,Miami Grand Prix,2026-05-03,esteban-ocon,Esteban Ocon,16,1
+4,Miami Grand Prix,2026-05-03,alexander-albon,Alexander Albon,17,1
+4,Miami Grand Prix,2026-05-03,nico-hulkenberg,Nico Hülkenberg,18,0
+4,Miami Grand Prix,2026-05-03,valtteri-bottas,Valtteri Bottas,19,0
+4,Miami Grand Prix,2026-05-03,sergio-perez,Sergio Pérez,20,0
+4,Miami Grand Prix,2026-05-03,fernando-alonso,Fernando Alonso,21,0
+4,Miami Grand Prix,2026-05-03,lance-stroll,Lance Stroll,22,0
+5,Canadian Grand Prix,2026-05-24,kimi-antonelli,Kimi Antonelli,1,131
+5,Canadian Grand Prix,2026-05-24,george-russell,George Russell,2,88
+5,Canadian Grand Prix,2026-05-24,charles-leclerc,Charles Leclerc,3,75
+5,Canadian Grand Prix,2026-05-24,lewis-hamilton,Lewis Hamilton,4,72
+5,Canadian Grand Prix,2026-05-24,lando-norris,Lando Norris,5,58
+5,Canadian Grand Prix,2026-05-24,oscar-piastri,Oscar Piastri,6,48
+5,Canadian Grand Prix,2026-05-24,max-verstappen,Max Verstappen,7,43
+5,Canadian Grand Prix,2026-05-24,pierre-gasly,Pierre Gasly,8,20
+5,Canadian Grand Prix,2026-05-24,oliver-bearman,Oliver Bearman,9,18
+5,Canadian Grand Prix,2026-05-24,liam-lawson,Liam Lawson,10,16
+5,Canadian Grand Prix,2026-05-24,franco-colapinto,Franco Colapinto,11,15
+5,Canadian Grand Prix,2026-05-24,isack-hadjar,Isack Hadjar,12,14
+5,Canadian Grand Prix,2026-05-24,carlos-sainz-jr,Carlos Sainz Jr.,13,6
+5,Canadian Grand Prix,2026-05-24,arvid-lindblad,Arvid Lindblad,14,5
+5,Canadian Grand Prix,2026-05-24,gabriel-bortoleto,Gabriel Bortoleto,15,2
+5,Canadian Grand Prix,2026-05-24,esteban-ocon,Esteban Ocon,16,1
+5,Canadian Grand Prix,2026-05-24,alexander-albon,Alexander Albon,17,1
+5,Canadian Grand Prix,2026-05-24,nico-hulkenberg,Nico Hülkenberg,18,0
+5,Canadian Grand Prix,2026-05-24,valtteri-bottas,Valtteri Bottas,19,0
+5,Canadian Grand Prix,2026-05-24,sergio-perez,Sergio Pérez,20,0
+5,Canadian Grand Prix,2026-05-24,lance-stroll,Lance Stroll,21,0
+5,Canadian Grand Prix,2026-05-24,fernando-alonso,Fernando Alonso,22,0
+6,Monaco Grand Prix,2026-06-07,kimi-antonelli,Kimi Antonelli,1,156
+6,Monaco Grand Prix,2026-06-07,lewis-hamilton,Lewis Hamilton,2,90
+6,Monaco Grand Prix,2026-06-07,george-russell,George Russell,3,88
+6,Monaco Grand Prix,2026-06-07,charles-leclerc,Charles Leclerc,4,75
+6,Monaco Grand Prix,2026-06-07,oscar-piastri,Oscar Piastri,5,60
+6,Monaco Grand Prix,2026-06-07,lando-norris,Lando Norris,6,58
+6,Monaco Grand Prix,2026-06-07,max-verstappen,Max Verstappen,7,43
+6,Monaco Grand Prix,2026-06-07,isack-hadjar,Isack Hadjar,8,29
+6,Monaco Grand Prix,2026-06-07,liam-lawson,Liam Lawson,9,26
+6,Monaco Grand Prix,2026-06-07,pierre-gasly,Pierre Gasly,10,26
+6,Monaco Grand Prix,2026-06-07,oliver-bearman,Oliver Bearman,11,18
+6,Monaco Grand Prix,2026-06-07,franco-colapinto,Franco Colapinto,12,15
+6,Monaco Grand Prix,2026-06-07,arvid-lindblad,Arvid Lindblad,13,13
+6,Monaco Grand Prix,2026-06-07,carlos-sainz-jr,Carlos Sainz Jr.,14,6
+6,Monaco Grand Prix,2026-06-07,alexander-albon,Alexander Albon,15,5
+6,Monaco Grand Prix,2026-06-07,esteban-ocon,Esteban Ocon,16,3
+6,Monaco Grand Prix,2026-06-07,gabriel-bortoleto,Gabriel Bortoleto,17,2
+6,Monaco Grand Prix,2026-06-07,fernando-alonso,Fernando Alonso,18,1
+6,Monaco Grand Prix,2026-06-07,nico-hulkenberg,Nico Hülkenberg,19,0
+6,Monaco Grand Prix,2026-06-07,valtteri-bottas,Valtteri Bottas,20,0
+6,Monaco Grand Prix,2026-06-07,sergio-perez,Sergio Pérez,21,0
+6,Monaco Grand Prix,2026-06-07,lance-stroll,Lance Stroll,22,0
+7,Barcelona-Catalunya Grand Prix,2026-06-14,kimi-antonelli,Kimi Antonelli,1,156
+7,Barcelona-Catalunya Grand Prix,2026-06-14,lewis-hamilton,Lewis Hamilton,2,115
+7,Barcelona-Catalunya Grand Prix,2026-06-14,george-russell,George Russell,3,106
+7,Barcelona-Catalunya Grand Prix,2026-06-14,charles-leclerc,Charles Leclerc,4,75
+7,Barcelona-Catalunya Grand Prix,2026-06-14,lando-norris,Lando Norris,5,73
+7,Barcelona-Catalunya Grand Prix,2026-06-14,oscar-piastri,Oscar Piastri,6,70
+7,Barcelona-Catalunya Grand Prix,2026-06-14,max-verstappen,Max Verstappen,7,55
+7,Barcelona-Catalunya Grand Prix,2026-06-14,isack-hadjar,Isack Hadjar,8,37
+7,Barcelona-Catalunya Grand Prix,2026-06-14,pierre-gasly,Pierre Gasly,9,32
+7,Barcelona-Catalunya Grand Prix,2026-06-14,liam-lawson,Liam Lawson,10,30
+7,Barcelona-Catalunya Grand Prix,2026-06-14,oliver-bearman,Oliver Bearman,11,18
+7,Barcelona-Catalunya Grand Prix,2026-06-14,franco-colapinto,Franco Colapinto,12,16
+7,Barcelona-Catalunya Grand Prix,2026-06-14,arvid-lindblad,Arvid Lindblad,13,15
+7,Barcelona-Catalunya Grand Prix,2026-06-14,carlos-sainz-jr,Carlos Sainz Jr.,14,6
+7,Barcelona-Catalunya Grand Prix,2026-06-14,alexander-albon,Alexander Albon,15,5
+7,Barcelona-Catalunya Grand Prix,2026-06-14,esteban-ocon,Esteban Ocon,16,3
+7,Barcelona-Catalunya Grand Prix,2026-06-14,gabriel-bortoleto,Gabriel Bortoleto,17,2
+7,Barcelona-Catalunya Grand Prix,2026-06-14,fernando-alonso,Fernando Alonso,18,1
+7,Barcelona-Catalunya Grand Prix,2026-06-14,nico-hulkenberg,Nico Hülkenberg,19,0
+7,Barcelona-Catalunya Grand Prix,2026-06-14,valtteri-bottas,Valtteri Bottas,20,0
+7,Barcelona-Catalunya Grand Prix,2026-06-14,sergio-perez,Sergio Pérez,21,0
+7,Barcelona-Catalunya Grand Prix,2026-06-14,lance-stroll,Lance Stroll,22,0
+8,Austrian Grand Prix,2026-06-28,kimi-antonelli,Kimi Antonelli,1,171
+8,Austrian Grand Prix,2026-06-28,george-russell,George Russell,2,131
+8,Austrian Grand Prix,2026-06-28,lewis-hamilton,Lewis Hamilton,3,125
+8,Austrian Grand Prix,2026-06-28,oscar-piastri,Oscar Piastri,4,82
+8,Austrian Grand Prix,2026-06-28,lando-norris,Lando Norris,5,79
+8,Austrian Grand Prix,2026-06-28,charles-leclerc,Charles Leclerc,6,79
+8,Austrian Grand Prix,2026-06-28,max-verstappen,Max Verstappen,7,73
+8,Austrian Grand Prix,2026-06-28,isack-hadjar,Isack Hadjar,8,45
+8,Austrian Grand Prix,2026-06-28,liam-lawson,Liam Lawson,9,32
+8,Austrian Grand Prix,2026-06-28,pierre-gasly,Pierre Gasly,10,32
+8,Austrian Grand Prix,2026-06-28,oliver-bearman,Oliver Bearman,11,18
+8,Austrian Grand Prix,2026-06-28,franco-colapinto,Franco Colapinto,12,16
+8,Austrian Grand Prix,2026-06-28,arvid-lindblad,Arvid Lindblad,13,16
+8,Austrian Grand Prix,2026-06-28,carlos-sainz-jr,Carlos Sainz Jr.,14,6
+8,Austrian Grand Prix,2026-06-28,alexander-albon,Alexander Albon,15,5
+8,Austrian Grand Prix,2026-06-28,esteban-ocon,Esteban Ocon,16,3
+8,Austrian Grand Prix,2026-06-28,gabriel-bortoleto,Gabriel Bortoleto,17,2
+8,Austrian Grand Prix,2026-06-28,fernando-alonso,Fernando Alonso,18,1
+8,Austrian Grand Prix,2026-06-28,nico-hulkenberg,Nico Hülkenberg,19,0
+8,Austrian Grand Prix,2026-06-28,valtteri-bottas,Valtteri Bottas,20,0
+8,Austrian Grand Prix,2026-06-28,sergio-perez,Sergio Pérez,21,0
+8,Austrian Grand Prix,2026-06-28,lance-stroll,Lance Stroll,22,0
+9,British Grand Prix,2026-07-05,kimi-antonelli,Kimi Antonelli,1,179
+9,British Grand Prix,2026-07-05,george-russell,George Russell,2,154
+9,British Grand Prix,2026-07-05,lewis-hamilton,Lewis Hamilton,3,147
+9,British Grand Prix,2026-07-05,charles-leclerc,Charles Leclerc,4,108
+9,British Grand Prix,2026-07-05,lando-norris,Lando Norris,5,97
+9,British Grand Prix,2026-07-05,oscar-piastri,Oscar Piastri,6,84
+9,British Grand Prix,2026-07-05,max-verstappen,Max Verstappen,7,76
+9,British Grand Prix,2026-07-05,isack-hadjar,Isack Hadjar,8,55
+9,British Grand Prix,2026-07-05,liam-lawson,Liam Lawson,9,41
+9,British Grand Prix,2026-07-05,pierre-gasly,Pierre Gasly,10,33
+9,British Grand Prix,2026-07-05,arvid-lindblad,Arvid Lindblad,11,22
+9,British Grand Prix,2026-07-05,oliver-bearman,Oliver Bearman,12,18
+9,British Grand Prix,2026-07-05,franco-colapinto,Franco Colapinto,13,18
+9,British Grand Prix,2026-07-05,gabriel-bortoleto,Gabriel Bortoleto,14,6
+9,British Grand Prix,2026-07-05,carlos-sainz-jr,Carlos Sainz Jr.,15,6
+9,British Grand Prix,2026-07-05,alexander-albon,Alexander Albon,16,5
+9,British Grand Prix,2026-07-05,esteban-ocon,Esteban Ocon,17,3
+9,British Grand Prix,2026-07-05,fernando-alonso,Fernando Alonso,18,1
+9,British Grand Prix,2026-07-05,nico-hulkenberg,Nico Hülkenberg,19,0
+9,British Grand Prix,2026-07-05,valtteri-bottas,Valtteri Bottas,20,0
+9,British Grand Prix,2026-07-05,sergio-perez,Sergio Pérez,21,0
+9,British Grand Prix,2026-07-05,lance-stroll,Lance Stroll,22,0
+10,Belgian Grand Prix,2026-07-19,kimi-antonelli,Kimi Antonelli,1,204
+10,Belgian Grand Prix,2026-07-19,lewis-hamilton,Lewis Hamilton,2,159
+10,Belgian Grand Prix,2026-07-19,george-russell,George Russell,3,154
+10,Belgian Grand Prix,2026-07-19,charles-leclerc,Charles Leclerc,4,126
+10,Belgian Grand Prix,2026-07-19,lando-norris,Lando Norris,5,103
+10,Belgian Grand Prix,2026-07-19,oscar-piastri,Oscar Piastri,6,94
+10,Belgian Grand Prix,2026-07-19,max-verstappen,Max Verstappen,7,91
+10,Belgian Grand Prix,2026-07-19,isack-hadjar,Isack Hadjar,8,63
+10,Belgian Grand Prix,2026-07-19,liam-lawson,Liam Lawson,9,41
+10,Belgian Grand Prix,2026-07-19,pierre-gasly,Pierre Gasly,10,33
+10,Belgian Grand Prix,2026-07-19,arvid-lindblad,Arvid Lindblad,11,24
+10,Belgian Grand Prix,2026-07-19,franco-colapinto,Franco Colapinto,12,19
+10,Belgian Grand Prix,2026-07-19,oliver-bearman,Oliver Bearman,13,18
+10,Belgian Grand Prix,2026-07-19,gabriel-bortoleto,Gabriel Bortoleto,14,10
+10,Belgian Grand Prix,2026-07-19,carlos-sainz-jr,Carlos Sainz Jr.,15,6
+10,Belgian Grand Prix,2026-07-19,alexander-albon,Alexander Albon,16,5
+10,Belgian Grand Prix,2026-07-19,esteban-ocon,Esteban Ocon,17,3
+10,Belgian Grand Prix,2026-07-19,fernando-alonso,Fernando Alonso,18,1
+10,Belgian Grand Prix,2026-07-19,nico-hulkenberg,Nico Hülkenberg,19,0
+10,Belgian Grand Prix,2026-07-19,valtteri-bottas,Valtteri Bottas,20,0
+10,Belgian Grand Prix,2026-07-19,sergio-perez,Sergio Pérez,21,0
+10,Belgian Grand Prix,2026-07-19,lance-stroll,Lance Stroll,22,0
+11,Hungarian Grand Prix,2026-07-26,kimi-antonelli,Kimi Antonelli,1,219
+11,Hungarian Grand Prix,2026-07-26,lewis-hamilton,Lewis Hamilton,2,169
+11,Hungarian Grand Prix,2026-07-26,george-russell,George Russell,3,160
+11,Hungarian Grand Prix,2026-07-26,charles-leclerc,Charles Leclerc,4,138
+11,Hungarian Grand Prix,2026-07-26,lando-norris,Lando Norris,5,128
+11,Hungarian Grand Prix,2026-07-26,max-verstappen,Max Verstappen,6,109
+11,Hungarian Grand Prix,2026-07-26,oscar-piastri,Oscar Piastri,7,94
+11,Hungarian Grand Prix,2026-07-26,isack-hadjar,Isack Hadjar,8,71
+11,Hungarian Grand Prix,2026-07-26,liam-lawson,Liam Lawson,9,45
+11,Hungarian Grand Prix,2026-07-26,pierre-gasly,Pierre Gasly,10,33
+11,Hungarian Grand Prix,2026-07-26,arvid-lindblad,Arvid Lindblad,11,25
+11,Hungarian Grand Prix,2026-07-26,franco-colapinto,Franco Colapinto,12,19
+11,Hungarian Grand Prix,2026-07-26,oliver-bearman,Oliver Bearman,13,18
+11,Hungarian Grand Prix,2026-07-26,gabriel-bortoleto,Gabriel Bortoleto,14,10
+11,Hungarian Grand Prix,2026-07-26,carlos-sainz-jr,Carlos Sainz Jr.,15,6
+11,Hungarian Grand Prix,2026-07-26,alexander-albon,Alexander Albon,16,5
+11,Hungarian Grand Prix,2026-07-26,esteban-ocon,Esteban Ocon,17,3
+11,Hungarian Grand Prix,2026-07-26,nico-hulkenberg,Nico Hülkenberg,18,2
+11,Hungarian Grand Prix,2026-07-26,fernando-alonso,Fernando Alonso,19,1
+11,Hungarian Grand Prix,2026-07-26,lance-stroll,Lance Stroll,20,0
+11,Hungarian Grand Prix,2026-07-26,valtteri-bottas,Valtteri Bottas,21,0
+11,Hungarian Grand Prix,2026-07-26,sergio-perez,Sergio Pérez,22,0
+12,Dutch Grand Prix,2026-08-23,kimi-antonelli,Kimi Antonelli,1,242
+12,Dutch Grand Prix,2026-08-23,george-russell,George Russell,2,183
+12,Dutch Grand Prix,2026-08-23,lewis-hamilton,Lewis Hamilton,3,183
+12,Dutch Grand Prix,2026-08-23,lando-norris,Lando Norris,4,159
+12,Dutch Grand Prix,2026-08-23,charles-leclerc,Charles Leclerc,5,155
+12,Dutch Grand Prix,2026-08-23,max-verstappen,Max Verstappen,6,112
+12,Dutch Grand Prix,2026-08-23,oscar-piastri,Oscar Piastri,7,106
+12,Dutch Grand Prix,2026-08-23,isack-hadjar,Isack Hadjar,8,71
+12,Dutch Grand Prix,2026-08-23,liam-lawson,Liam Lawson,9,51
+12,Dutch Grand Prix,2026-08-23,pierre-gasly,Pierre Gasly,10,35
+12,Dutch Grand Prix,2026-08-23,arvid-lindblad,Arvid Lindblad,11,25
+12,Dutch Grand Prix,2026-08-23,franco-colapinto,Franco Colapinto,12,19
+12,Dutch Grand Prix,2026-08-23,oliver-bearman,Oliver Bearman,13,18
+12,Dutch Grand Prix,2026-08-23,gabriel-bortoleto,Gabriel Bortoleto,14,10
+12,Dutch Grand Prix,2026-08-23,nico-hulkenberg,Nico Hülkenberg,15,6
+12,Dutch Grand Prix,2026-08-23,carlos-sainz-jr,Carlos Sainz Jr.,16,6
+12,Dutch Grand Prix,2026-08-23,alexander-albon,Alexander Albon,17,5
+12,Dutch Grand Prix,2026-08-23,esteban-ocon,Esteban Ocon,18,3
+12,Dutch Grand Prix,2026-08-23,fernando-alonso,Fernando Alonso,19,3
+12,Dutch Grand Prix,2026-08-23,yuki-tsunoda,Yuki Tsunoda,20,0
+12,Dutch Grand Prix,2026-08-23,lance-stroll,Lance Stroll,21,0
+12,Dutch Grand Prix,2026-08-23,valtteri-bottas,Valtteri Bottas,22,0
+12,Dutch Grand Prix,2026-08-23,sergio-perez,Sergio Pérez,23,0
+13,Italian Grand Prix,2026-09-06,kimi-antonelli,Kimi Antonelli,1,267
+13,Italian Grand Prix,2026-09-06,george-russell,George Russell,2,201
+13,Italian Grand Prix,2026-09-06,lewis-hamilton,Lewis Hamilton,3,191
+13,Italian Grand Prix,2026-09-06,lando-norris,Lando Norris,4,171
+13,Italian Grand Prix,2026-09-06,charles-leclerc,Charles Leclerc,5,155
+13,Italian Grand Prix,2026-09-06,max-verstappen,Max Verstappen,6,127
+13,Italian Grand Prix,2026-09-06,oscar-piastri,Oscar Piastri,7,116
+13,Italian Grand Prix,2026-09-06,isack-hadjar,Isack Hadjar,8,71
+13,Italian Grand Prix,2026-09-06,liam-lawson,Liam Lawson,9,51
+13,Italian Grand Prix,2026-09-06,pierre-gasly,Pierre Gasly,10,41
+13,Italian Grand Prix,2026-09-06,arvid-lindblad,Arvid Lindblad,11,29
+13,Italian Grand Prix,2026-09-06,franco-colapinto,Franco Colapinto,12,21
+13,Italian Grand Prix,2026-09-06,oliver-bearman,Oliver Bearman,13,18
+13,Italian Grand Prix,2026-09-06,gabriel-bortoleto,Gabriel Bortoleto,14,10
+13,Italian Grand Prix,2026-09-06,nico-hulkenberg,Nico Hülkenberg,15,6
+13,Italian Grand Prix,2026-09-06,carlos-sainz-jr,Carlos Sainz Jr.,16,6
+13,Italian Grand Prix,2026-09-06,alexander-albon,Alexander Albon,17,5
+13,Italian Grand Prix,2026-09-06,esteban-ocon,Esteban Ocon,18,3
+13,Italian Grand Prix,2026-09-06,fernando-alonso,Fernando Alonso,19,3
+13,Italian Grand Prix,2026-09-06,yuki-tsunoda,Yuki Tsunoda,20,1
+13,Italian Grand Prix,2026-09-06,lance-stroll,Lance Stroll,21,0
+13,Italian Grand Prix,2026-09-06,valtteri-bottas,Valtteri Bottas,22,0
+13,Italian Grand Prix,2026-09-06,sergio-perez,Sergio Pérez,23,0
+14,Spanish Grand Prix,2026-09-13,kimi-antonelli,Kimi Antonelli,1,292
+14,Spanish Grand Prix,2026-09-13,george-russell,George Russell,2,211
+14,Spanish Grand Prix,2026-09-13,lewis-hamilton,Lewis Hamilton,3,191
+14,Spanish Grand Prix,2026-09-13,lando-norris,Lando Norris,4,186
+14,Spanish Grand Prix,2026-09-13,charles-leclerc,Charles Leclerc,5,167
+14,Spanish Grand Prix,2026-09-13,max-verstappen,Max Verstappen,6,145
+14,Spanish Grand Prix,2026-09-13,oscar-piastri,Oscar Piastri,7,120
+14,Spanish Grand Prix,2026-09-13,isack-hadjar,Isack Hadjar,8,71
+14,Spanish Grand Prix,2026-09-13,liam-lawson,Liam Lawson,9,59
+14,Spanish Grand Prix,2026-09-13,pierre-gasly,Pierre Gasly,10,41
+14,Spanish Grand Prix,2026-09-13,arvid-lindblad,Arvid Lindblad,11,31
+14,Spanish Grand Prix,2026-09-13,franco-colapinto,Franco Colapinto,12,27
+14,Spanish Grand Prix,2026-09-13,oliver-bearman,Oliver Bearman,13,18
+14,Spanish Grand Prix,2026-09-13,gabriel-bortoleto,Gabriel Bortoleto,14,10
+14,Spanish Grand Prix,2026-09-13,nico-hulkenberg,Nico Hülkenberg,15,7
+14,Spanish Grand Prix,2026-09-13,carlos-sainz-jr,Carlos Sainz Jr.,16,6
+14,Spanish Grand Prix,2026-09-13,alexander-albon,Alexander Albon,17,5
+14,Spanish Grand Prix,2026-09-13,esteban-ocon,Esteban Ocon,18,3
+14,Spanish Grand Prix,2026-09-13,fernando-alonso,Fernando Alonso,19,3
+14,Spanish Grand Prix,2026-09-13,yuki-tsunoda,Yuki Tsunoda,20,1
+14,Spanish Grand Prix,2026-09-13,lance-stroll,Lance Stroll,21,0
+14,Spanish Grand Prix,2026-09-13,valtteri-bottas,Valtteri Bottas,22,0
+14,Spanish Grand Prix,2026-09-13,sergio-perez,Sergio Pérez,23,0
+15,Azerbaijan Grand Prix,2026-09-26,kimi-antonelli,Kimi Antonelli,1,302
+15,Azerbaijan Grand Prix,2026-09-26,george-russell,George Russell,2,236
+15,Azerbaijan Grand Prix,2026-09-26,lewis-hamilton,Lewis Hamilton,3,199
+15,Azerbaijan Grand Prix,2026-09-26,lando-norris,Lando Norris,4,186
+15,Azerbaijan Grand Prix,2026-09-26,charles-leclerc,Charles Leclerc,5,179
+15,Azerbaijan Grand Prix,2026-09-26,max-verstappen,Max Verstappen,6,163
+15,Azerbaijan Grand Prix,2026-09-26,oscar-piastri,Oscar Piastri,7,120
+15,Azerbaijan Grand Prix,2026-09-26,isack-hadjar,Isack Hadjar,8,86
+15,Azerbaijan Grand Prix,2026-09-26,liam-lawson,Liam Lawson,9,59
+15,Azerbaijan Grand Prix,2026-09-26,pierre-gasly,Pierre Gasly,10,41
+15,Azerbaijan Grand Prix,2026-09-26,arvid-lindblad,Arvid Lindblad,11,37
+15,Azerbaijan Grand Prix,2026-09-26,franco-colapinto,Franco Colapinto,12,27
+15,Azerbaijan Grand Prix,2026-09-26,oliver-bearman,Oliver Bearman,13,20
+15,Azerbaijan Grand Prix,2026-09-26,gabriel-bortoleto,Gabriel Bortoleto,14,10
+15,Azerbaijan Grand Prix,2026-09-26,nico-hulkenberg,Nico Hülkenberg,15,7
+15,Azerbaijan Grand Prix,2026-09-26,esteban-ocon,Esteban Ocon,16,7
+15,Azerbaijan Grand Prix,2026-09-26,carlos-sainz-jr,Carlos Sainz Jr.,17,7
+15,Azerbaijan Grand Prix,2026-09-26,alexander-albon,Alexander Albon,18,5
+15,Azerbaijan Grand Prix,2026-09-26,fernando-alonso,Fernando Alonso,19,3
+15,Azerbaijan Grand Prix,2026-09-26,yuki-tsunoda,Yuki Tsunoda,20,1
+15,Azerbaijan Grand Prix,2026-09-26,lance-stroll,Lance Stroll,21,0
+15,Azerbaijan Grand Prix,2026-09-26,valtteri-bottas,Valtteri Bottas,22,0
+15,Azerbaijan Grand Prix,2026-09-26,sergio-perez,Sergio Pérez,23,0
+16,Bahrain Grand Prix,2026-10-04,kimi-antonelli,Kimi Antonelli,1,320
+16,Bahrain Grand Prix,2026-10-04,george-russell,George Russell,2,236
+16,Bahrain Grand Prix,2026-10-04,lewis-hamilton,Lewis Hamilton,3,214
+16,Bahrain Grand Prix,2026-10-04,charles-leclerc,Charles Leclerc,4,191
+16,Bahrain Grand Prix,2026-10-04,lando-norris,Lando Norris,5,188
+16,Bahrain Grand Prix,2026-10-04,max-verstappen,Max Verstappen,6,188
+16,Bahrain Grand Prix,2026-10-04,oscar-piastri,Oscar Piastri,7,128
+16,Bahrain Grand Prix,2026-10-04,isack-hadjar,Isack Hadjar,8,96
+16,Bahrain Grand Prix,2026-10-04,liam-lawson,Liam Lawson,9,65
+16,Bahrain Grand Prix,2026-10-04,pierre-gasly,Pierre Gasly,10,41
+16,Bahrain Grand Prix,2026-10-04,arvid-lindblad,Arvid Lindblad,11,38
+16,Bahrain Grand Prix,2026-10-04,franco-colapinto,Franco Colapinto,12,27
+16,Bahrain Grand Prix,2026-10-04,oliver-bearman,Oliver Bearman,13,20
+16,Bahrain Grand Prix,2026-10-04,gabriel-bortoleto,Gabriel Bortoleto,14,10
+16,Bahrain Grand Prix,2026-10-04,nico-hulkenberg,Nico Hülkenberg,15,7
+16,Bahrain Grand Prix,2026-10-04,esteban-ocon,Esteban Ocon,16,7
+16,Bahrain Grand Prix,2026-10-04,fernando-alonso,Fernando Alonso,17,7
+16,Bahrain Grand Prix,2026-10-04,carlos-sainz-jr,Carlos Sainz Jr.,18,7
+16,Bahrain Grand Prix,2026-10-04,alexander-albon,Alexander Albon,19,5
+16,Bahrain Grand Prix,2026-10-04,yuki-tsunoda,Yuki Tsunoda,20,1
+16,Bahrain Grand Prix,2026-10-04,lance-stroll,Lance Stroll,21,0
+16,Bahrain Grand Prix,2026-10-04,valtteri-bottas,Valtteri Bottas,22,0
+16,Bahrain Grand Prix,2026-10-04,sergio-perez,Sergio Pérez,23,0
+17,Singapore Grand Prix,2026-10-11,kimi-antonelli,Kimi Antonelli,1,340
+17,Singapore Grand Prix,2026-10-11,george-russell,George Russell,2,238
+17,Singapore Grand Prix,2026-10-11,lewis-hamilton,Lewis Hamilton,3,229
+17,Singapore Grand Prix,2026-10-11,max-verstappen,Max Verstappen,4,221
+17,Singapore Grand Prix,2026-10-11,charles-leclerc,Charles Leclerc,5,215
+17,Singapore Grand Prix,2026-10-11,lando-norris,Lando Norris,6,201
+17,Singapore Grand Prix,2026-10-11,oscar-piastri,Oscar Piastri,7,138
+17,Singapore Grand Prix,2026-10-11,isack-hadjar,Isack Hadjar,8,97
+17,Singapore Grand Prix,2026-10-11,liam-lawson,Liam Lawson,9,75
+17,Singapore Grand Prix,2026-10-11,pierre-gasly,Pierre Gasly,10,41
+17,Singapore Grand Prix,2026-10-11,arvid-lindblad,Arvid Lindblad,11,38
+17,Singapore Grand Prix,2026-10-11,franco-colapinto,Franco Colapinto,12,27
+17,Singapore Grand Prix,2026-10-11,oliver-bearman,Oliver Bearman,13,23
+17,Singapore Grand Prix,2026-10-11,nico-hulkenberg,Nico Hülkenberg,14,13
+17,Singapore Grand Prix,2026-10-11,gabriel-bortoleto,Gabriel Bortoleto,15,10
+17,Singapore Grand Prix,2026-10-11,esteban-ocon,Esteban Ocon,16,7
+17,Singapore Grand Prix,2026-10-11,fernando-alonso,Fernando Alonso,17,7
+17,Singapore Grand Prix,2026-10-11,carlos-sainz-jr,Carlos Sainz Jr.,18,7
+17,Singapore Grand Prix,2026-10-11,alexander-albon,Alexander Albon,19,5
+17,Singapore Grand Prix,2026-10-11,yuki-tsunoda,Yuki Tsunoda,20,1
+17,Singapore Grand Prix,2026-10-11,lance-stroll,Lance Stroll,21,0
+17,Singapore Grand Prix,2026-10-11,valtteri-bottas,Valtteri Bottas,22,0
+17,Singapore Grand Prix,2026-10-11,sergio-perez,Sergio Pérez,23,0
+18,United States Grand Prix,2026-10-25,kimi-antonelli,Kimi Antonelli,1,365
+18,United States Grand Prix,2026-10-25,george-russell,George Russell,2,242
+18,United States Grand Prix,2026-10-25,lewis-hamilton,Lewis Hamilton,3,241
+18,United States Grand Prix,2026-10-25,max-verstappen,Max Verstappen,4,236
+18,United States Grand Prix,2026-10-25,charles-leclerc,Charles Leclerc,5,233
+18,United States Grand Prix,2026-10-25,lando-norris,Lando Norris,6,211
+18,United States Grand Prix,2026-10-25,oscar-piastri,Oscar Piastri,7,144
+18,United States Grand Prix,2026-10-25,isack-hadjar,Isack Hadjar,8,105
+18,United States Grand Prix,2026-10-25,liam-lawson,Liam Lawson,9,77
+18,United States Grand Prix,2026-10-25,pierre-gasly,Pierre Gasly,10,42
+18,United States Grand Prix,2026-10-25,arvid-lindblad,Arvid Lindblad,11,38
+18,United States Grand Prix,2026-10-25,franco-colapinto,Franco Colapinto,12,27
+18,United States Grand Prix,2026-10-25,oliver-bearman,Oliver Bearman,13,23
+18,United States Grand Prix,2026-10-25,nico-hulkenberg,Nico Hülkenberg,14,13
+18,United States Grand Prix,2026-10-25,gabriel-bortoleto,Gabriel Bortoleto,15,10
+18,United States Grand Prix,2026-10-25,esteban-ocon,Esteban Ocon,16,7
+18,United States Grand Prix,2026-10-25,fernando-alonso,Fernando Alonso,17,7
+18,United States Grand Prix,2026-10-25,carlos-sainz-jr,Carlos Sainz Jr.,18,7
+18,United States Grand Prix,2026-10-25,alexander-albon,Alexander Albon,19,5
+18,United States Grand Prix,2026-10-25,yuki-tsunoda,Yuki Tsunoda,20,1
+18,United States Grand Prix,2026-10-25,lance-stroll,Lance Stroll,21,0
+18,United States Grand Prix,2026-10-25,valtteri-bottas,Valtteri Bottas,22,0
+18,United States Grand Prix,2026-10-25,sergio-perez,Sergio Pérez,23,0
+19,Mexican Grand Prix,2026-11-01,kimi-antonelli,Kimi Antonelli,1,380
+19,Mexican Grand Prix,2026-11-01,max-verstappen,Max Verstappen,2,261
+19,Mexican Grand Prix,2026-11-01,lewis-hamilton,Lewis Hamilton,3,259
+19,Mexican Grand Prix,2026-11-01,george-russell,George Russell,4,250
+19,Mexican Grand Prix,2026-11-01,charles-leclerc,Charles Leclerc,5,245
+19,Mexican Grand Prix,2026-11-01,lando-norris,Lando Norris,6,221
+19,Mexican Grand Prix,2026-11-01,oscar-piastri,Oscar Piastri,7,144
+19,Mexican Grand Prix,2026-11-01,isack-hadjar,Isack Hadjar,8,107
+19,Mexican Grand Prix,2026-11-01,liam-lawson,Liam Lawson,9,83
+19,Mexican Grand Prix,2026-11-01,pierre-gasly,Pierre Gasly,10,42
+19,Mexican Grand Prix,2026-11-01,arvid-lindblad,Arvid Lindblad,11,38
+19,Mexican Grand Prix,2026-11-01,franco-colapinto,Franco Colapinto,12,27
+19,Mexican Grand Prix,2026-11-01,oliver-bearman,Oliver Bearman,13,23
+19,Mexican Grand Prix,2026-11-01,gabriel-bortoleto,Gabriel Bortoleto,14,14
+19,Mexican Grand Prix,2026-11-01,nico-hulkenberg,Nico Hülkenberg,15,13
+19,Mexican Grand Prix,2026-11-01,esteban-ocon,Esteban Ocon,16,7
+19,Mexican Grand Prix,2026-11-01,fernando-alonso,Fernando Alonso,17,7
+19,Mexican Grand Prix,2026-11-01,carlos-sainz-jr,Carlos Sainz Jr.,18,7
+19,Mexican Grand Prix,2026-11-01,alexander-albon,Alexander Albon,19,5
+19,Mexican Grand Prix,2026-11-01,yuki-tsunoda,Yuki Tsunoda,20,1
+19,Mexican Grand Prix,2026-11-01,ryo-hirakawa,Ryō Hirakawa,21,1
+19,Mexican Grand Prix,2026-11-01,lance-stroll,Lance Stroll,22,0
+19,Mexican Grand Prix,2026-11-01,valtteri-bottas,Valtteri Bottas,23,0
+19,Mexican Grand Prix,2026-11-01,sergio-perez,Sergio Pérez,24,0
+20,São Paulo Grand Prix,2026-11-08,kimi-antonelli,Kimi Antonelli,1,390
+20,São Paulo Grand Prix,2026-11-08,max-verstappen,Max Verstappen,2,279
+20,São Paulo Grand Prix,2026-11-08,george-russell,George Russell,3,262
+20,São Paulo Grand Prix,2026-11-08,lewis-hamilton,Lewis Hamilton,4,261
+20,São Paulo Grand Prix,2026-11-08,charles-leclerc,Charles Leclerc,5,249
+20,São Paulo Grand Prix,2026-11-08,lando-norris,Lando Norris,6,246
+20,São Paulo Grand Prix,2026-11-08,oscar-piastri,Oscar Piastri,7,152
+20,São Paulo Grand Prix,2026-11-08,isack-hadjar,Isack Hadjar,8,122
+20,São Paulo Grand Prix,2026-11-08,liam-lawson,Liam Lawson,9,89
+20,São Paulo Grand Prix,2026-11-08,pierre-gasly,Pierre Gasly,10,42
+20,São Paulo Grand Prix,2026-11-08,arvid-lindblad,Arvid Lindblad,11,38
+20,São Paulo Grand Prix,2026-11-08,franco-colapinto,Franco Colapinto,12,27
+20,São Paulo Grand Prix,2026-11-08,oliver-bearman,Oliver Bearman,13,23
+20,São Paulo Grand Prix,2026-11-08,gabriel-bortoleto,Gabriel Bortoleto,14,14
+20,São Paulo Grand Prix,2026-11-08,nico-hulkenberg,Nico Hülkenberg,15,14
+20,São Paulo Grand Prix,2026-11-08,esteban-ocon,Esteban Ocon,16,7
+20,São Paulo Grand Prix,2026-11-08,fernando-alonso,Fernando Alonso,17,7
+20,São Paulo Grand Prix,2026-11-08,carlos-sainz-jr,Carlos Sainz Jr.,18,7
+20,São Paulo Grand Prix,2026-11-08,alexander-albon,Alexander Albon,19,5
+20,São Paulo Grand Prix,2026-11-08,yuki-tsunoda,Yuki Tsunoda,20,1
+20,São Paulo Grand Prix,2026-11-08,ryo-hirakawa,Ryō Hirakawa,21,1
+20,São Paulo Grand Prix,2026-11-08,lance-stroll,Lance Stroll,22,0
+20,São Paulo Grand Prix,2026-11-08,valtteri-bottas,Valtteri Bottas,23,0
+20,São Paulo Grand Prix,2026-11-08,sergio-perez,Sergio Pérez,24,0
+20,São Paulo Grand Prix,2026-11-08,rafael-camara,Rafael Câmara,25,0
+21,Las Vegas Grand Prix,2026-11-22,kimi-antonelli,Kimi Antonelli,1,402
+21,Las Vegas Grand Prix,2026-11-22,max-verstappen,Max Verstappen,2,304
+21,Las Vegas Grand Prix,2026-11-22,lewis-hamilton,Lewis Hamilton,3,267
+21,Las Vegas Grand Prix,2026-11-22,george-russell,George Russell,4,264
+21,Las Vegas Grand Prix,2026-11-22,lando-norris,Lando Norris,5,264
+21,Las Vegas Grand Prix,2026-11-22,charles-leclerc,Charles Leclerc,6,250
+21,Las Vegas Grand Prix,2026-11-22,oscar-piastri,Oscar Piastri,7,167
+21,Las Vegas Grand Prix,2026-11-22,isack-hadjar,Isack Hadjar,8,122
+21,Las Vegas Grand Prix,2026-11-22,liam-lawson,Liam Lawson,9,89
+21,Las Vegas Grand Prix,2026-11-22,pierre-gasly,Pierre Gasly,10,52
+21,Las Vegas Grand Prix,2026-11-22,arvid-lindblad,Arvid Lindblad,11,38
+21,Las Vegas Grand Prix,2026-11-22,franco-colapinto,Franco Colapinto,12,35
+21,Las Vegas Grand Prix,2026-11-22,oliver-bearman,Oliver Bearman,13,23
+21,Las Vegas Grand Prix,2026-11-22,gabriel-bortoleto,Gabriel Bortoleto,14,14
+21,Las Vegas Grand Prix,2026-11-22,nico-hulkenberg,Nico Hülkenberg,15,14
+21,Las Vegas Grand Prix,2026-11-22,carlos-sainz-jr,Carlos Sainz Jr.,16,11
+21,Las Vegas Grand Prix,2026-11-22,esteban-ocon,Esteban Ocon,17,7
+21,Las Vegas Grand Prix,2026-11-22,fernando-alonso,Fernando Alonso,18,7
+21,Las Vegas Grand Prix,2026-11-22,alexander-albon,Alexander Albon,19,5
+21,Las Vegas Grand Prix,2026-11-22,yuki-tsunoda,Yuki Tsunoda,20,1
+21,Las Vegas Grand Prix,2026-11-22,ryo-hirakawa,Ryō Hirakawa,21,1
+21,Las Vegas Grand Prix,2026-11-22,lance-stroll,Lance Stroll,22,0
+21,Las Vegas Grand Prix,2026-11-22,valtteri-bottas,Valtteri Bottas,23,0
+21,Las Vegas Grand Prix,2026-11-22,sergio-perez,Sergio Pérez,24,0
+21,Las Vegas Grand Prix,2026-11-22,rafael-camara,Rafael Câmara,25,0

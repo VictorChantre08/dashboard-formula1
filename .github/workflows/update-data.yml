@@ -1,0 +1,41 @@
+name: Atualizar dados
+
+# Depois de cada GP o F1DB publica uma nova versão. Este fluxo roda o pipeline,
+# valida e, se algo mudou, grava os arquivos atualizados no repositório.
+on:
+  schedule:
+    - cron: "0 9 * * 1,2"   # segundas e terças, 09:00 UTC (corridas acontecem aos domingos)
+  workflow_dispatch:         # permite rodar manualmente pela aba Actions
+
+permissions:
+  contents: write
+  actions: write   # para disparar a publicação do painel (push feito pelo GITHUB_TOKEN não dispara outros fluxos)
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Testes
+        run: pytest -q
+      - name: Pipeline (extrai, transforma, valida e carrega)
+        run: python run_pipeline.py
+      - name: Commit se houve mudança
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/processed output dashboard/data.json
+          if git diff --cached --quiet; then
+            echo "Sem mudanças nos dados."
+          else
+            git commit -m "dados: atualização automática ($(date -u +%F))"
+            git push
+            gh workflow run pages.yml || echo "Pages não configurado; painel não republicado."
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}

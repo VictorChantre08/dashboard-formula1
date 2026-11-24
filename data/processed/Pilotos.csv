@@ -1,0 +1,37 @@
+Piloto_ID,Nome,Nome_Completo,Sigla,Numero,Nacionalidade,Pais_Nascimento,Cidade_Nascimento,Data_Nascimento,Equipe_2026,Papel,Posicao_Campeonato,Pontos_Oficiais,Pontos_Corridas,Pontos_Sprints,Pontos_Calculados,Diferenca,GPs_Disputados,Vitorias,Podios,Poles,Voltas_Mais_Rapidas,Abandonos
+kimi-antonelli,Kimi Antonelli,Andrea Kimi Antonelli,ANT,12.0,Italian,Italy,Bologna,2006-08-25,Mercedes,Piloto de corrida,1,402,371,31,402,0,21,9,16,8,8,0
+max-verstappen,Max Verstappen,Max Emilian Verstappen,VER,3.0,Dutch,Belgium,Hasselt,1997-09-30,Red Bull,Piloto de corrida,2,304,284,20,304,0,21,4,13,2,2,3
+lewis-hamilton,Lewis Hamilton,Lewis Carl Davidson Hamilton,HAM,44.0,British,United Kingdom,Stevenage,1985-01-07,Ferrari,Piloto de corrida,3,267,240,27,267,0,21,1,7,1,2,1
+george-russell,George Russell,George William Russell,RUS,63.0,British,United Kingdom,King's Lynn,1998-02-15,Mercedes,Piloto de corrida,4,264,230,34,264,0,21,3,8,5,2,2
+lando-norris,Lando Norris,Lando Norris,NOR,4.0,British,United Kingdom,Bristol,1999-11-13,McLaren,Piloto de corrida,5,264,231,33,264,0,20,3,7,4,2,3
+charles-leclerc,Charles Leclerc,Charles Marc Hervé Perceval Leclerc,LEC,16.0,Monégasque,Monaco,Monte Carlo,1997-10-16,Ferrari,Piloto de corrida,6,250,216,34,250,0,21,1,6,0,4,2
+oscar-piastri,Oscar Piastri,Oscar Jack Piastri,PIA,81.0,Australian,Australia,Melbourne,2001-04-06,McLaren,Piloto de corrida,7,167,146,21,167,0,19,0,3,0,0,1
+isack-hadjar,Isack Hadjar,Isack Alexandre Hadjar,HAD,6.0,French,France,Paris,2004-09-28,Red Bull,Piloto de corrida,8,122,122,0,122,0,18,0,3,0,0,2
+liam-lawson,Liam Lawson,Liam Jared Lawson,LAW,30.0,New Zealander,New Zealand,Hastings,2002-02-11,Red Bull; Racing Bulls,Piloto de corrida,9,89,82,7,89,0,21,0,0,0,1,1
+pierre-gasly,Pierre Gasly,Pierre Jean-Jacques Gasly,GAS,10.0,French,France,Rouen,1996-02-07,Alpine,Piloto de corrida,10,52,50,2,52,0,21,0,0,1,0,2
+arvid-lindblad,Arvid Lindblad,Arvid Anand Olof Lindblad,LIN,41.0,British,United Kingdom,Virginia Water,2007-08-08,Racing Bulls,Piloto de corrida,11,38,37,1,38,0,20,0,0,0,0,2
+franco-colapinto,Franco Colapinto,Franco Alejandro Colapinto,COL,43.0,Argentine,Argentina,Pilar,2003-05-27,Alpine,Piloto de corrida,12,35,35,0,35,0,21,0,0,0,0,3
+oliver-bearman,Oliver Bearman,Oliver James Bearman,BEA,87.0,British,United Kingdom,Havering,2005-05-08,Haas,Piloto de corrida,13,23,19,4,23,0,21,0,0,0,0,5
+gabriel-bortoleto,Gabriel Bortoleto,Gabriel Lourenzo Bortoleto Oliveira,BOR,5.0,Brazilian,Brazil,Osasco,2004-10-14,Audi,Piloto de corrida,14,14,14,0,14,0,20,0,0,0,0,1
+nico-hulkenberg,Nico Hülkenberg,Nicolas Hülkenberg,HUL,27.0,German,Germany,Emmerich am Rhein,1987-08-19,Audi,Piloto de corrida,15,14,12,2,14,0,20,0,0,0,0,3
+carlos-sainz-jr,Carlos Sainz Jr.,Carlos Sainz Vázquez de Castro,SAI,55.0,Spanish,Spain,Madrid,1994-09-01,Williams,Piloto de corrida,16,11,11,0,11,0,21,0,0,0,0,2
+esteban-ocon,Esteban Ocon,Esteban José Jean-Pierre Ocon-Khelfane,OCO,31.0,French,France,Évreux,1996-09-17,Haas,Piloto de corrida,17,7,7,0,7,0,18,0,0,0,0,1
+fernando-alonso,Fernando Alonso,Fernando Alonso Díaz,ALO,14.0,Spanish,Spain,Oviedo,1981-07-29,Aston Martin,Piloto de corrida,18,7,7,0,7,0,21,0,0,0,0,7
+alexander-albon,Alexander Albon,Alexander Philippe Albon Ansusinha,ALB,23.0,Thai,United Kingdom,London,1996-03-23,Williams,Piloto de corrida,19,5,5,0,5,0,19,0,0,0,0,4
+yuki-tsunoda,Yuki Tsunoda,Yuki Tsunoda,TSU,22.0,Japanese,Japan,Sagamihara,2000-05-11,Racing Bulls,Piloto de corrida,20,1,1,0,1,0,3,0,0,0,0,0
+ryo-hirakawa,Ryō Hirakawa,Ryō Hirakawa,HIR,,Japanese,Japan,Kure,1994-03-07,Haas,Piloto de corrida,21,1,1,0,1,0,1,0,0,0,0,0
+lance-stroll,Lance Stroll,Lance Strulovitch,STR,18.0,Canadian,Canada,Montreal,1998-10-29,Aston Martin,Piloto de corrida,22,0,0,0,0,0,21,0,0,0,0,13
+valtteri-bottas,Valtteri Bottas,Valtteri Viktor Bottas,BOT,77.0,Finnish,Finland,Nastola,1989-08-28,Cadillac,Piloto de corrida,23,0,0,0,0,0,20,0,0,0,0,9
+sergio-perez,Sergio Pérez,Sergio Michel Pérez Mendoza,PER,11.0,Mexican,Mexico,Guadalajara,1990-01-26,Cadillac,Piloto de corrida,24,0,0,0,0,0,21,0,0,0,0,6
+rafael-camara,Rafael Câmara,Rafael Chaves Câmara,CAM,50.0,Brazilian,Brazil,Recife,2005-05-05,Haas,Piloto de corrida,25,0,0,0,0,0,2,0,0,0,0,0
+ayumu-iwasa,Ayumu Iwasa,Ayumu Iwasa,IWA,,Japanese,Japan,Moriguchi,2001-09-22,Red Bull; Racing Bulls,Piloto de testes/reserva,,0,0,0,0,0,0,0,0,0,0,0
+colton-herta,Colton Herta,Colton Thomas Herta,HER,,American,United States of America,Santa Clarita,2000-03-30,Cadillac,Piloto de testes/reserva,,0,0,0,0,0,0,0,0,0,0,0
+dino-beganovic,Dino Beganovic,Dino Beganovic,BEG,,Swedish,Sweden,Linköping,2004-01-19,Ferrari,Piloto de testes/reserva,,0,0,0,0,0,0,0,0,0,0,0
+freddie-slater,Freddie Slater,Freddie Slater,SLA,,British,United Kingdom,Stratford,2008-08-09,Audi,Piloto de testes/reserva,,0,0,0,0,0,0,0,0,0,0,0
+frederik-vesti,Frederik Vesti,Frederik Vesti Stamm,VES,,Danish,Denmark,Langelund,2002-01-13,Mercedes,Piloto de testes/reserva,,0,0,0,0,0,0,0,0,0,0,0
+gabriele-mini,Gabriele Minì,Gabriele Minì,MIN,,Italian,Italy,Palermo,2005-03-20,Alpine,Piloto de testes/reserva,,0,0,0,0,0,0,0,0,0,0,0
+jak-crawford,Jak Crawford,Carlton Jakston Crawford,CRA,,American,United States of America,Charlotte,2005-05-02,Aston Martin,Piloto de testes/reserva,,0,0,0,0,0,0,0,0,0,0,0
+leonardo-fornaroli,Leonardo Fornaroli,Leonardo Fornaroli,FOR,,Italian,Italy,Piacenza,2004-12-03,McLaren,Piloto de testes/reserva,,0,0,0,0,0,0,0,0,0,0,0
+luke-browning,Luke Browning,Luke Browning,BRO,,British,United Kingdom,Kingsley,2002-01-31,Williams,Piloto de testes/reserva,,0,0,0,0,0,0,0,0,0,0,0
+nikola-tsolov,Nikola Tsolov,Nikola Dimitrov Tsolov,TSO,,Bulgarian,Bulgaria,Sofia,2006-12-21,Racing Bulls,Piloto de testes/reserva,,0,0,0,0,0,0,0,0,0,0,0
+paul-aron,Paul Aron,Paul Aron,ARO,,Estonian,Estonia,Tallinn,2004-02-04,Audi; Alpine,Piloto de testes/reserva,,0,0,0,0,0,0,0,0,0,0,0

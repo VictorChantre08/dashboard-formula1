@@ -1,0 +1,40 @@
+Equipe_ID,Equipe,Piloto_ID,Piloto,Rodadas,Piloto_de_Testes
+aston-martin,Aston Martin,fernando-alonso,Fernando Alonso,1-21,Não
+aston-martin,Aston Martin,lance-stroll,Lance Stroll,1-21,Não
+aston-martin,Aston Martin,jak-crawford,Jak Crawford,,Sim
+williams,Williams,alexander-albon,Alexander Albon,1-21,Não
+williams,Williams,carlos-sainz-jr,Carlos Sainz Jr.,1-21,Não
+williams,Williams,luke-browning,Luke Browning,,Sim
+audi,Audi,gabriel-bortoleto,Gabriel Bortoleto,1-21,Não
+audi,Audi,nico-hulkenberg,Nico Hülkenberg,1-21,Não
+audi,Audi,paul-aron,Paul Aron,,Sim
+audi,Audi,freddie-slater,Freddie Slater,,Sim
+alpine,Alpine,pierre-gasly,Pierre Gasly,1-21,Não
+alpine,Alpine,franco-colapinto,Franco Colapinto,1-21,Não
+alpine,Alpine,paul-aron,Paul Aron,,Sim
+alpine,Alpine,gabriele-mini,Gabriele Minì,,Sim
+cadillac,Cadillac,sergio-perez,Sergio Pérez,1-21,Não
+cadillac,Cadillac,valtteri-bottas,Valtteri Bottas,1-21,Não
+cadillac,Cadillac,colton-herta,Colton Herta,,Sim
+mclaren,McLaren,lando-norris,Lando Norris,1-21,Não
+mclaren,McLaren,oscar-piastri,Oscar Piastri,1-21,Não
+mclaren,McLaren,leonardo-fornaroli,Leonardo Fornaroli,,Sim
+mercedes,Mercedes,kimi-antonelli,Kimi Antonelli,1-21,Não
+mercedes,Mercedes,george-russell,George Russell,1-21,Não
+mercedes,Mercedes,frederik-vesti,Frederik Vesti,,Sim
+red-bull,Red Bull,isack-hadjar,Isack Hadjar,"1-11,15-21",Não
+red-bull,Red Bull,liam-lawson,Liam Lawson,12-14,Não
+red-bull,Red Bull,max-verstappen,Max Verstappen,1-21,Não
+red-bull,Red Bull,ayumu-iwasa,Ayumu Iwasa,,Sim
+ferrari,Ferrari,charles-leclerc,Charles Leclerc,1-21,Não
+ferrari,Ferrari,lewis-hamilton,Lewis Hamilton,1-21,Não
+ferrari,Ferrari,dino-beganovic,Dino Beganovic,,Sim
+haas,Haas,esteban-ocon,Esteban Ocon,1-19,Não
+haas,Haas,oliver-bearman,Oliver Bearman,1-21,Não
+haas,Haas,ryo-hirakawa,Ryō Hirakawa,19,Sim
+haas,Haas,rafael-camara,Rafael Câmara,20-21,Não
+racing-bulls,Racing Bulls,arvid-lindblad,Arvid Lindblad,1-21,Não
+racing-bulls,Racing Bulls,liam-lawson,Liam Lawson,"1-11,15-21",Não
+racing-bulls,Racing Bulls,yuki-tsunoda,Yuki Tsunoda,12-14,Não
+racing-bulls,Racing Bulls,ayumu-iwasa,Ayumu Iwasa,,Sim
+racing-bulls,Racing Bulls,nikola-tsolov,Nikola Tsolov,,Sim

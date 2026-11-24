@@ -1,0 +1,133 @@
+Rodada,GP,Data,Piloto_ID,Piloto,Numero,Equipe_ID,Equipe,Grid,Posicao,Situacao,Voltas,Tempo,Penalidade_Tempo,Gap,Intervalo,Motivo_Abandono,Pontos
+2,Chinese Grand Prix,2026-03-15,george-russell,George Russell,63,mercedes,Mercedes,1,1,Classificado,19.0,33:38.998,,,,,8
+2,Chinese Grand Prix,2026-03-15,charles-leclerc,Charles Leclerc,16,ferrari,Ferrari,6,2,Classificado,19.0,33:39.672,,+0.674,+0.674,,7
+2,Chinese Grand Prix,2026-03-15,lewis-hamilton,Lewis Hamilton,44,ferrari,Ferrari,4,3,Classificado,19.0,33:41.552,,+2.554,+1.880,,6
+2,Chinese Grand Prix,2026-03-15,lando-norris,Lando Norris,1,mclaren,McLaren,3,4,Classificado,19.0,33:43.431,,+4.433,+1.879,,5
+2,Chinese Grand Prix,2026-03-15,kimi-antonelli,Kimi Antonelli,12,mercedes,Mercedes,2,5,Classificado,19.0,33:44.686,,+5.688,+1.255,,4
+2,Chinese Grand Prix,2026-03-15,oscar-piastri,Oscar Piastri,81,mclaren,McLaren,5,6,Classificado,19.0,33:45.807,,+6.809,+1.121,,3
+2,Chinese Grand Prix,2026-03-15,liam-lawson,Liam Lawson,30,racing-bulls,Racing Bulls,13,7,Classificado,19.0,33:49.898,,+10.900,+4.091,,2
+2,Chinese Grand Prix,2026-03-15,oliver-bearman,Oliver Bearman,87,haas,Haas,9,8,Classificado,19.0,33:50.269,,+11.271,+0.371,,1
+2,Chinese Grand Prix,2026-03-15,max-verstappen,Max Verstappen,3,red-bull,Red Bull,8,9,Classificado,19.0,33:50.617,,+11.619,+0.348,,0
+2,Chinese Grand Prix,2026-03-15,esteban-ocon,Esteban Ocon,31,haas,Haas,12,10,Classificado,19.0,33:52.885,,+13.887,+2.268,,0
+2,Chinese Grand Prix,2026-03-15,pierre-gasly,Pierre Gasly,10,alpine,Alpine,7,11,Classificado,19.0,33:53.778,,+14.780,+0.893,,0
+2,Chinese Grand Prix,2026-03-15,carlos-sainz-jr,Carlos Sainz Jr.,55,williams,Williams,17,12,Classificado,19.0,33:54.751,,+15.753,+0.973,,0
+2,Chinese Grand Prix,2026-03-15,gabriel-bortoleto,Gabriel Bortoleto,5,audi,Audi,14,13,Classificado,19.0,33:54.856,,+15.858,+0.105,,0
+2,Chinese Grand Prix,2026-03-15,franco-colapinto,Franco Colapinto,43,alpine,Alpine,16,14,Classificado,19.0,33:55.391,,+16.393,+0.535,,0
+2,Chinese Grand Prix,2026-03-15,isack-hadjar,Isack Hadjar,6,red-bull,Red Bull,10,15,Classificado,19.0,33:55.428,,+16.430,+0.037,,0
+2,Chinese Grand Prix,2026-03-15,alexander-albon,Alexander Albon,23,williams,Williams,22,16,Classificado,19.0,33:59.012,,+20.014,+3.584,,0
+2,Chinese Grand Prix,2026-03-15,fernando-alonso,Fernando Alonso,14,aston-martin,Aston Martin,18,17,Classificado,19.0,34:00.597,,+21.599,+1.585,,0
+2,Chinese Grand Prix,2026-03-15,lance-stroll,Lance Stroll,18,aston-martin,Aston Martin,19,18,Classificado,19.0,34:00.969,,+21.971,+0.372,,0
+2,Chinese Grand Prix,2026-03-15,sergio-perez,Sergio Pérez,11,cadillac,Cadillac,21,19,Classificado,19.0,34:07.239,5.000,+28.241,+6.270,,0
+2,Chinese Grand Prix,2026-03-15,nico-hulkenberg,Nico Hülkenberg,27,audi,Audi,11,,DNF,12.0,,,,,Mechanical,0
+2,Chinese Grand Prix,2026-03-15,valtteri-bottas,Valtteri Bottas,77,cadillac,Cadillac,20,,DNF,12.0,,,,,Withdrew,0
+2,Chinese Grand Prix,2026-03-15,arvid-lindblad,Arvid Lindblad,41,racing-bulls,Racing Bulls,15,,DNF,11.0,,,,,Collision damage,0
+4,Miami Grand Prix,2026-05-03,lando-norris,Lando Norris,1,mclaren,McLaren,1,1,Classificado,19.0,29:15.045,,,,,8
+4,Miami Grand Prix,2026-05-03,oscar-piastri,Oscar Piastri,81,mclaren,McLaren,3,2,Classificado,19.0,29:18.811,,+3.766,+3.766,,7
+4,Miami Grand Prix,2026-05-03,charles-leclerc,Charles Leclerc,16,ferrari,Ferrari,4,3,Classificado,19.0,29:21.296,,+6.251,+2.485,,6
+4,Miami Grand Prix,2026-05-03,george-russell,George Russell,63,mercedes,Mercedes,6,4,Classificado,19.0,29:27.996,,+12.951,+6.700,,5
+4,Miami Grand Prix,2026-05-03,max-verstappen,Max Verstappen,3,red-bull,Red Bull,5,5,Classificado,19.0,29:28.684,,+13.639,+0.688,,4
+4,Miami Grand Prix,2026-05-03,kimi-antonelli,Kimi Antonelli,12,mercedes,Mercedes,2,6,Classificado,19.0,29:28.822,,+13.777,+0.138,,3
+4,Miami Grand Prix,2026-05-03,lewis-hamilton,Lewis Hamilton,44,ferrari,Ferrari,7,7,Classificado,19.0,29:36.710,,+21.665,+7.888,,2
+4,Miami Grand Prix,2026-05-03,pierre-gasly,Pierre Gasly,10,alpine,Alpine,10,8,Classificado,19.0,29:45.570,,+30.525,+8.860,,1
+4,Miami Grand Prix,2026-05-03,isack-hadjar,Isack Hadjar,6,red-bull,Red Bull,9,9,Classificado,19.0,29:50.391,,+35.346,+4.821,,0
+4,Miami Grand Prix,2026-05-03,franco-colapinto,Franco Colapinto,43,alpine,Alpine,8,10,Classificado,19.0,29:52.015,,+36.970,+1.624,,0
+4,Miami Grand Prix,2026-05-03,esteban-ocon,Esteban Ocon,31,haas,Haas,16,11,Classificado,19.0,30:12.017,,+56.972,+20.002,,0
+4,Miami Grand Prix,2026-05-03,oliver-bearman,Oliver Bearman,87,haas,Haas,13,12,Classificado,19.0,30:12.410,,+57.365,+0.393,,0
+4,Miami Grand Prix,2026-05-03,carlos-sainz-jr,Carlos Sainz Jr.,55,williams,Williams,14,13,Classificado,19.0,30:13.549,,+58.504,+1.139,,0
+4,Miami Grand Prix,2026-05-03,liam-lawson,Liam Lawson,30,racing-bulls,Racing Bulls,15,14,Classificado,19.0,30:14.403,,+59.358,+0.854,,0
+4,Miami Grand Prix,2026-05-03,fernando-alonso,Fernando Alonso,14,aston-martin,Aston Martin,20,15,Classificado,19.0,30:31.112,,+1:16.067,+16.709,,0
+4,Miami Grand Prix,2026-05-03,sergio-perez,Sergio Pérez,11,cadillac,Cadillac,17,16,Classificado,19.0,30:31.736,,+1:16.691,+0.624,,0
+4,Miami Grand Prix,2026-05-03,lance-stroll,Lance Stroll,18,aston-martin,Aston Martin,21,17,Classificado,19.0,30:32.671,,+1:17.626,+0.935,,0
+4,Miami Grand Prix,2026-05-03,alexander-albon,Alexander Albon,23,williams,Williams,18,18,Classificado,19.0,30:43.218,,+1:28.173,+10.547,,0
+4,Miami Grand Prix,2026-05-03,valtteri-bottas,Valtteri Bottas,77,cadillac,Cadillac,19,19,Classificado,19.0,30:44.642,,+1:29.597,+1.424,,0
+4,Miami Grand Prix,2026-05-03,nico-hulkenberg,Nico Hülkenberg,27,audi,Audi,12,,DNS,0.0,,,,,,0
+4,Miami Grand Prix,2026-05-03,arvid-lindblad,Arvid Lindblad,41,racing-bulls,Racing Bulls,22,,DNS,0.0,,,,,,0
+4,Miami Grand Prix,2026-05-03,gabriel-bortoleto,Gabriel Bortoleto,5,audi,Audi,11,,DSQ,,,,,,,0
+5,Canadian Grand Prix,2026-05-24,george-russell,George Russell,63,mercedes,Mercedes,1,1,Classificado,23.0,28:50.951,,,,,8
+5,Canadian Grand Prix,2026-05-24,lando-norris,Lando Norris,1,mclaren,McLaren,3,2,Classificado,23.0,28:52.223,,+1.272,+1.272,,7
+5,Canadian Grand Prix,2026-05-24,kimi-antonelli,Kimi Antonelli,12,mercedes,Mercedes,2,3,Classificado,23.0,28:52.794,,+1.843,+0.571,,6
+5,Canadian Grand Prix,2026-05-24,oscar-piastri,Oscar Piastri,81,mclaren,McLaren,4,4,Classificado,23.0,29:00.748,,+9.797,+7.954,,5
+5,Canadian Grand Prix,2026-05-24,charles-leclerc,Charles Leclerc,16,ferrari,Ferrari,6,5,Classificado,23.0,29:00.880,,+9.929,+0.132,,4
+5,Canadian Grand Prix,2026-05-24,lewis-hamilton,Lewis Hamilton,44,ferrari,Ferrari,5,6,Classificado,23.0,29:01.496,,+10.545,+0.616,,3
+5,Canadian Grand Prix,2026-05-24,max-verstappen,Max Verstappen,3,red-bull,Red Bull,7,7,Classificado,23.0,29:06.886,,+15.935,+5.390,,2
+5,Canadian Grand Prix,2026-05-24,arvid-lindblad,Arvid Lindblad,41,racing-bulls,Racing Bulls,9,8,Classificado,23.0,29:20.661,,+29.710,+13.775,,1
+5,Canadian Grand Prix,2026-05-24,franco-colapinto,Franco Colapinto,43,alpine,Alpine,13,9,Classificado,23.0,29:22.572,,+31.621,+1.911,,0
+5,Canadian Grand Prix,2026-05-24,carlos-sainz-jr,Carlos Sainz Jr.,55,williams,Williams,10,10,Classificado,23.0,29:27.744,,+36.793,+5.172,,0
+5,Canadian Grand Prix,2026-05-24,liam-lawson,Liam Lawson,30,racing-bulls,Racing Bulls,18,11,Classificado,23.0,29:52.295,,+1:01.344,+24.551,,0
+5,Canadian Grand Prix,2026-05-24,gabriel-bortoleto,Gabriel Bortoleto,5,audi,Audi,12,12,Classificado,23.0,29:52.765,,+1:01.814,+0.470,,0
+5,Canadian Grand Prix,2026-05-24,esteban-ocon,Esteban Ocon,31,haas,Haas,14,13,Classificado,23.0,29:55.160,,+1:04.209,+2.395,,0
+5,Canadian Grand Prix,2026-05-24,sergio-perez,Sergio Pérez,11,cadillac,Cadillac,16,14,Classificado,23.0,30:01.353,10.000,+1:10.402,+6.193,,0
+5,Canadian Grand Prix,2026-05-24,nico-hulkenberg,Nico Hülkenberg,27,audi,Audi,11,15,Classificado,23.0,30:03.109,10.000,+1:12.158,+1.756,,0
+5,Canadian Grand Prix,2026-05-24,lance-stroll,Lance Stroll,18,aston-martin,Aston Martin,,16,Classificado,22.0,,,+1 lap,,,0
+5,Canadian Grand Prix,2026-05-24,valtteri-bottas,Valtteri Bottas,77,cadillac,Cadillac,,17,Classificado,22.0,,,+1 lap,,,0
+5,Canadian Grand Prix,2026-05-24,oliver-bearman,Oliver Bearman,87,haas,Haas,,18,Classificado,22.0,,,+1 lap,,,0
+5,Canadian Grand Prix,2026-05-24,alexander-albon,Alexander Albon,23,williams,Williams,,19,Classificado,22.0,,,+1 lap,,,0
+5,Canadian Grand Prix,2026-05-24,pierre-gasly,Pierre Gasly,10,alpine,Alpine,,20,Classificado,22.0,,,+1 lap,,,0
+5,Canadian Grand Prix,2026-05-24,isack-hadjar,Isack Hadjar,6,red-bull,Red Bull,8,21,Classificado,20.0,,,+3 laps,,Engine,0
+5,Canadian Grand Prix,2026-05-24,fernando-alonso,Fernando Alonso,14,aston-martin,Aston Martin,15,,DNF,15.0,,,,,Engine,0
+9,British Grand Prix,2026-07-05,kimi-antonelli,Kimi Antonelli,12,mercedes,Mercedes,2,1,Classificado,17.0,26:12.129,,,,,8
+9,British Grand Prix,2026-07-05,lewis-hamilton,Lewis Hamilton,44,ferrari,Ferrari,1,2,Classificado,17.0,26:14.874,,+2.745,+2.745,,7
+9,British Grand Prix,2026-07-05,lando-norris,Lando Norris,1,mclaren,McLaren,6,3,Classificado,17.0,26:21.912,,+9.783,+7.038,,6
+9,British Grand Prix,2026-07-05,george-russell,George Russell,63,mercedes,Mercedes,5,4,Classificado,17.0,26:22.768,,+10.639,+0.856,,5
+9,British Grand Prix,2026-07-05,charles-leclerc,Charles Leclerc,16,ferrari,Ferrari,4,5,Classificado,17.0,26:24.749,,+12.620,+1.981,,4
+9,British Grand Prix,2026-07-05,max-verstappen,Max Verstappen,3,red-bull,Red Bull,3,6,Classificado,17.0,26:28.679,,+16.550,+3.930,,3
+9,British Grand Prix,2026-07-05,oscar-piastri,Oscar Piastri,81,mclaren,McLaren,7,7,Classificado,17.0,26:29.680,,+17.551,+1.001,,2
+9,British Grand Prix,2026-07-05,liam-lawson,Liam Lawson,30,racing-bulls,Racing Bulls,9,8,Classificado,17.0,26:42.362,,+30.233,+12.682,,1
+9,British Grand Prix,2026-07-05,isack-hadjar,Isack Hadjar,6,red-bull,Red Bull,8,9,Classificado,17.0,26:43.082,,+30.953,+0.720,,0
+9,British Grand Prix,2026-07-05,arvid-lindblad,Arvid Lindblad,41,racing-bulls,Racing Bulls,10,10,Classificado,17.0,26:47.239,,+35.110,+4.157,,0
+9,British Grand Prix,2026-07-05,pierre-gasly,Pierre Gasly,10,alpine,Alpine,11,11,Classificado,17.0,26:52.402,,+40.273,+5.163,,0
+9,British Grand Prix,2026-07-05,franco-colapinto,Franco Colapinto,43,alpine,Alpine,14,12,Classificado,17.0,26:53.155,,+41.026,+0.753,,0
+9,British Grand Prix,2026-07-05,gabriel-bortoleto,Gabriel Bortoleto,5,audi,Audi,12,13,Classificado,17.0,26:54.628,,+42.499,+1.473,,0
+9,British Grand Prix,2026-07-05,oliver-bearman,Oliver Bearman,87,haas,Haas,16,14,Classificado,17.0,26:57.913,,+45.784,+3.285,,0
+9,British Grand Prix,2026-07-05,nico-hulkenberg,Nico Hülkenberg,27,audi,Audi,13,15,Classificado,17.0,26:58.809,5.000,+46.680,+0.896,,0
+9,British Grand Prix,2026-07-05,esteban-ocon,Esteban Ocon,31,haas,Haas,17,16,Classificado,17.0,27:01.939,,+49.810,+3.130,,0
+9,British Grand Prix,2026-07-05,carlos-sainz-jr,Carlos Sainz Jr.,55,williams,Williams,15,17,Classificado,17.0,27:02.508,,+50.379,+0.569,,0
+9,British Grand Prix,2026-07-05,alexander-albon,Alexander Albon,23,williams,Williams,,18,Classificado,17.0,27:02.886,,+50.757,+0.378,,0
+9,British Grand Prix,2026-07-05,valtteri-bottas,Valtteri Bottas,77,cadillac,Cadillac,19,19,Classificado,17.0,27:27.246,,+1:15.117,+24.360,,0
+9,British Grand Prix,2026-07-05,fernando-alonso,Fernando Alonso,14,aston-martin,Aston Martin,20,20,Classificado,17.0,27:44.001,,+1:31.872,+16.755,,0
+9,British Grand Prix,2026-07-05,lance-stroll,Lance Stroll,18,aston-martin,Aston Martin,21,21,Classificado,16.0,,,+1 lap,,,0
+9,British Grand Prix,2026-07-05,sergio-perez,Sergio Pérez,11,cadillac,Cadillac,18,22,Classificado,16.0,,10.000,+1 lap,,,0
+12,Dutch Grand Prix,2026-08-23,george-russell,George Russell,63,mercedes,Mercedes,1,1,Classificado,24.0,30:25.318,,,,,8
+12,Dutch Grand Prix,2026-08-23,charles-leclerc,Charles Leclerc,16,ferrari,Ferrari,3,2,Classificado,24.0,30:26.678,,+1.360,+1.360,,7
+12,Dutch Grand Prix,2026-08-23,lando-norris,Lando Norris,1,mclaren,McLaren,2,3,Classificado,24.0,30:30.514,,+5.196,+3.836,,6
+12,Dutch Grand Prix,2026-08-23,kimi-antonelli,Kimi Antonelli,12,mercedes,Mercedes,5,4,Classificado,24.0,30:30.899,,+5.581,+0.385,,5
+12,Dutch Grand Prix,2026-08-23,oscar-piastri,Oscar Piastri,81,mclaren,McLaren,4,5,Classificado,24.0,30:35.503,,+10.185,+4.604,,4
+12,Dutch Grand Prix,2026-08-23,max-verstappen,Max Verstappen,3,red-bull,Red Bull,6,6,Classificado,24.0,30:35.847,,+10.529,+0.344,,3
+12,Dutch Grand Prix,2026-08-23,lewis-hamilton,Lewis Hamilton,44,ferrari,Ferrari,7,7,Classificado,24.0,30:37.506,,+12.188,+1.659,,2
+12,Dutch Grand Prix,2026-08-23,pierre-gasly,Pierre Gasly,10,alpine,Alpine,8,8,Classificado,24.0,31:07.828,,+42.510,+30.322,,1
+12,Dutch Grand Prix,2026-08-23,gabriel-bortoleto,Gabriel Bortoleto,5,audi,Audi,9,9,Classificado,24.0,31:09.755,,+44.437,+1.927,,0
+12,Dutch Grand Prix,2026-08-23,arvid-lindblad,Arvid Lindblad,41,racing-bulls,Racing Bulls,10,10,Classificado,24.0,31:10.289,,+44.971,+0.534,,0
+12,Dutch Grand Prix,2026-08-23,liam-lawson,Liam Lawson,30,red-bull,Red Bull,11,11,Classificado,24.0,31:12.789,,+47.471,+2.500,,0
+12,Dutch Grand Prix,2026-08-23,franco-colapinto,Franco Colapinto,43,alpine,Alpine,13,12,Classificado,24.0,31:19.784,,+54.466,+6.995,,0
+12,Dutch Grand Prix,2026-08-23,yuki-tsunoda,Yuki Tsunoda,22,racing-bulls,Racing Bulls,12,13,Classificado,24.0,31:21.801,,+56.483,+2.017,,0
+12,Dutch Grand Prix,2026-08-23,esteban-ocon,Esteban Ocon,31,haas,Haas,15,14,Classificado,24.0,31:31.416,,+1:06.098,+9.615,,0
+12,Dutch Grand Prix,2026-08-23,oliver-bearman,Oliver Bearman,87,haas,Haas,17,15,Classificado,24.0,31:31.906,,+1:06.588,+0.490,,0
+12,Dutch Grand Prix,2026-08-23,alexander-albon,Alexander Albon,23,williams,Williams,16,16,Classificado,24.0,31:39.950,,+1:14.632,+8.044,,0
+12,Dutch Grand Prix,2026-08-23,lance-stroll,Lance Stroll,18,aston-martin,Aston Martin,18,17,Classificado,24.0,31:39.968,,+1:14.650,+0.018,,0
+12,Dutch Grand Prix,2026-08-23,fernando-alonso,Fernando Alonso,14,aston-martin,Aston Martin,,18,Classificado,24.0,31:40.602,,+1:15.284,+0.634,,0
+12,Dutch Grand Prix,2026-08-23,valtteri-bottas,Valtteri Bottas,77,cadillac,Cadillac,19,19,Classificado,23.0,,,+1 lap,,,0
+12,Dutch Grand Prix,2026-08-23,carlos-sainz-jr,Carlos Sainz Jr.,55,williams,Williams,,20,Classificado,23.0,,,+1 lap,,,0
+12,Dutch Grand Prix,2026-08-23,sergio-perez,Sergio Pérez,11,cadillac,Cadillac,,21,Classificado,21.0,,,+3 laps,,,0
+12,Dutch Grand Prix,2026-08-23,nico-hulkenberg,Nico Hülkenberg,27,audi,Audi,14,,NC,7.0,,,+17 laps,,Engine,0
+17,Singapore Grand Prix,2026-10-11,max-verstappen,Max Verstappen,3,red-bull,Red Bull,1,1,Classificado,20.0,39:48.162,,,,,8
+17,Singapore Grand Prix,2026-10-11,lewis-hamilton,Lewis Hamilton,44,ferrari,Ferrari,6,2,Classificado,20.0,39:50.753,,+2.591,+2.591,,7
+17,Singapore Grand Prix,2026-10-11,charles-leclerc,Charles Leclerc,16,ferrari,Ferrari,3,3,Classificado,20.0,40:05.033,,+16.871,+14.280,,6
+17,Singapore Grand Prix,2026-10-11,kimi-antonelli,Kimi Antonelli,12,mercedes,Mercedes,7,4,Classificado,20.0,40:05.400,,+17.238,+0.367,,5
+17,Singapore Grand Prix,2026-10-11,liam-lawson,Liam Lawson,30,racing-bulls,Racing Bulls,8,5,Classificado,20.0,40:08.794,,+20.632,+3.394,,4
+17,Singapore Grand Prix,2026-10-11,oliver-bearman,Oliver Bearman,87,haas,Haas,13,6,Classificado,20.0,40:12.483,,+24.321,+3.689,,3
+17,Singapore Grand Prix,2026-10-11,nico-hulkenberg,Nico Hülkenberg,27,audi,Audi,12,7,Classificado,20.0,40:15.687,,+27.525,+3.204,,2
+17,Singapore Grand Prix,2026-10-11,lando-norris,Lando Norris,1,mclaren,McLaren,5,8,Classificado,20.0,40:16.434,,+28.272,+0.747,,1
+17,Singapore Grand Prix,2026-10-11,pierre-gasly,Pierre Gasly,10,alpine,Alpine,10,9,Classificado,20.0,40:24.382,,+36.220,+7.948,,0
+17,Singapore Grand Prix,2026-10-11,esteban-ocon,Esteban Ocon,31,haas,Haas,16,10,Classificado,20.0,40:25.802,,+37.640,+1.420,,0
+17,Singapore Grand Prix,2026-10-11,fernando-alonso,Fernando Alonso,14,aston-martin,Aston Martin,15,11,Classificado,20.0,40:38.626,,+50.464,+12.824,,0
+17,Singapore Grand Prix,2026-10-11,carlos-sainz-jr,Carlos Sainz Jr.,55,williams,Williams,22,12,Classificado,20.0,40:40.629,,+52.467,+2.003,,0
+17,Singapore Grand Prix,2026-10-11,arvid-lindblad,Arvid Lindblad,41,racing-bulls,Racing Bulls,17,13,Classificado,20.0,40:43.954,,+55.792,+3.325,,0
+17,Singapore Grand Prix,2026-10-11,oscar-piastri,Oscar Piastri,81,mclaren,McLaren,4,14,Classificado,19.0,,,,,,0
+17,Singapore Grand Prix,2026-10-11,alexander-albon,Alexander Albon,23,williams,Williams,19,,DNF,14.0,,,,,,0
+17,Singapore Grand Prix,2026-10-11,gabriel-bortoleto,Gabriel Bortoleto,5,audi,Audi,14,,DNF,6.0,,,,,,0
+17,Singapore Grand Prix,2026-10-11,valtteri-bottas,Valtteri Bottas,77,cadillac,Cadillac,21,,DNF,6.0,,,,,,0
+17,Singapore Grand Prix,2026-10-11,isack-hadjar,Isack Hadjar,6,red-bull,Red Bull,9,,DNF,2.0,,,,,,0
+17,Singapore Grand Prix,2026-10-11,franco-colapinto,Franco Colapinto,43,alpine,Alpine,11,,DNF,2.0,,,,,,0
+17,Singapore Grand Prix,2026-10-11,george-russell,George Russell,63,mercedes,Mercedes,2,,DNF,1.0,,,,,,0
+17,Singapore Grand Prix,2026-10-11,sergio-perez,Sergio Pérez,11,cadillac,Cadillac,20,,DNF,1.0,,,,,,0
+17,Singapore Grand Prix,2026-10-11,lance-stroll,Lance Stroll,18,aston-martin,Aston Martin,18,,DNF,0.0,,,,,,0

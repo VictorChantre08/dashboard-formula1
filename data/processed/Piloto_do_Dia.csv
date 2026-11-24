@@ -1,0 +1,106 @@
+Rodada,GP,Data,Piloto_ID,Piloto,Equipe_ID,Equipe,Ranking,Percentual_Votos
+1,Australian Grand Prix,2026-03-08,max-verstappen,Max Verstappen,red-bull,Red Bull,1,30.0
+1,Australian Grand Prix,2026-03-08,charles-leclerc,Charles Leclerc,ferrari,Ferrari,2,14.23
+1,Australian Grand Prix,2026-03-08,arvid-lindblad,Arvid Lindblad,racing-bulls,Racing Bulls,3,10.54
+1,Australian Grand Prix,2026-03-08,george-russell,George Russell,mercedes,Mercedes,4,10.24
+1,Australian Grand Prix,2026-03-08,lewis-hamilton,Lewis Hamilton,ferrari,Ferrari,5,9.62
+2,Chinese Grand Prix,2026-03-15,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,1,23.43
+2,Chinese Grand Prix,2026-03-15,lewis-hamilton,Lewis Hamilton,ferrari,Ferrari,2,22.28
+2,Chinese Grand Prix,2026-03-15,franco-colapinto,Franco Colapinto,alpine,Alpine,3,11.4
+2,Chinese Grand Prix,2026-03-15,oliver-bearman,Oliver Bearman,haas,Haas,4,10.15
+2,Chinese Grand Prix,2026-03-15,max-verstappen,Max Verstappen,red-bull,Red Bull,5,7.11
+3,Japanese Grand Prix,2026-03-29,oscar-piastri,Oscar Piastri,mclaren,McLaren,1,27.36
+3,Japanese Grand Prix,2026-03-29,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,2,18.94
+3,Japanese Grand Prix,2026-03-29,charles-leclerc,Charles Leclerc,ferrari,Ferrari,3,12.65
+3,Japanese Grand Prix,2026-03-29,lewis-hamilton,Lewis Hamilton,ferrari,Ferrari,4,7.04
+3,Japanese Grand Prix,2026-03-29,max-verstappen,Max Verstappen,red-bull,Red Bull,5,6.84
+4,Miami Grand Prix,2026-05-03,max-verstappen,Max Verstappen,red-bull,Red Bull,1,26.32
+4,Miami Grand Prix,2026-05-03,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,2,18.29
+4,Miami Grand Prix,2026-05-03,charles-leclerc,Charles Leclerc,ferrari,Ferrari,3,13.22
+4,Miami Grand Prix,2026-05-03,franco-colapinto,Franco Colapinto,alpine,Alpine,4,10.98
+4,Miami Grand Prix,2026-05-03,lando-norris,Lando Norris,mclaren,McLaren,5,9.22
+5,Canadian Grand Prix,2026-05-24,lewis-hamilton,Lewis Hamilton,ferrari,Ferrari,1,27.73
+5,Canadian Grand Prix,2026-05-24,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,2,17.06
+5,Canadian Grand Prix,2026-05-24,max-verstappen,Max Verstappen,red-bull,Red Bull,3,15.74
+5,Canadian Grand Prix,2026-05-24,franco-colapinto,Franco Colapinto,alpine,Alpine,4,9.71
+5,Canadian Grand Prix,2026-05-24,george-russell,George Russell,mercedes,Mercedes,5,6.22
+6,Monaco Grand Prix,2026-06-07,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,1,22.37
+6,Monaco Grand Prix,2026-06-07,charles-leclerc,Charles Leclerc,ferrari,Ferrari,2,14.09
+6,Monaco Grand Prix,2026-06-07,lewis-hamilton,Lewis Hamilton,ferrari,Ferrari,3,14.06
+6,Monaco Grand Prix,2026-06-07,isack-hadjar,Isack Hadjar,red-bull,Red Bull,4,11.23
+6,Monaco Grand Prix,2026-06-07,pierre-gasly,Pierre Gasly,alpine,Alpine,5,5.25
+7,Barcelona-Catalunya Grand Prix,2026-06-14,lewis-hamilton,Lewis Hamilton,ferrari,Ferrari,1,51.86
+7,Barcelona-Catalunya Grand Prix,2026-06-14,max-verstappen,Max Verstappen,red-bull,Red Bull,2,8.25
+7,Barcelona-Catalunya Grand Prix,2026-06-14,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,3,7.5
+7,Barcelona-Catalunya Grand Prix,2026-06-14,charles-leclerc,Charles Leclerc,ferrari,Ferrari,4,6.07
+7,Barcelona-Catalunya Grand Prix,2026-06-14,lando-norris,Lando Norris,mclaren,McLaren,5,5.55
+8,Austrian Grand Prix,2026-06-28,max-verstappen,Max Verstappen,red-bull,Red Bull,1,39.61
+8,Austrian Grand Prix,2026-06-28,george-russell,George Russell,mercedes,Mercedes,2,11.37
+8,Austrian Grand Prix,2026-06-28,lewis-hamilton,Lewis Hamilton,ferrari,Ferrari,3,10.32
+8,Austrian Grand Prix,2026-06-28,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,4,10.0
+8,Austrian Grand Prix,2026-06-28,oscar-piastri,Oscar Piastri,mclaren,McLaren,5,8.26
+9,British Grand Prix,2026-07-05,charles-leclerc,Charles Leclerc,ferrari,Ferrari,1,26.82
+9,British Grand Prix,2026-07-05,lewis-hamilton,Lewis Hamilton,ferrari,Ferrari,2,19.04
+9,British Grand Prix,2026-07-05,max-verstappen,Max Verstappen,red-bull,Red Bull,3,16.08
+9,British Grand Prix,2026-07-05,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,4,11.85
+9,British Grand Prix,2026-07-05,george-russell,George Russell,mercedes,Mercedes,5,4.54
+10,Belgian Grand Prix,2026-07-19,charles-leclerc,Charles Leclerc,ferrari,Ferrari,1,17.7
+10,Belgian Grand Prix,2026-07-19,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,2,13.75
+10,Belgian Grand Prix,2026-07-19,isack-hadjar,Isack Hadjar,red-bull,Red Bull,3,13.36
+10,Belgian Grand Prix,2026-07-19,max-verstappen,Max Verstappen,red-bull,Red Bull,4,12.8
+10,Belgian Grand Prix,2026-07-19,lando-norris,Lando Norris,mclaren,McLaren,5,11.6
+11,Hungarian Grand Prix,2026-07-26,max-verstappen,Max Verstappen,red-bull,Red Bull,1,18.85
+11,Hungarian Grand Prix,2026-07-26,lando-norris,Lando Norris,mclaren,McLaren,2,17.06
+11,Hungarian Grand Prix,2026-07-26,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,3,11.16
+11,Hungarian Grand Prix,2026-07-26,george-russell,George Russell,mercedes,Mercedes,4,11.04
+11,Hungarian Grand Prix,2026-07-26,oscar-piastri,Oscar Piastri,mclaren,McLaren,5,8.85
+12,Dutch Grand Prix,2026-08-23,lando-norris,Lando Norris,mclaren,McLaren,1,18.52
+12,Dutch Grand Prix,2026-08-23,fernando-alonso,Fernando Alonso,aston-martin,Aston Martin,2,17.74
+12,Dutch Grand Prix,2026-08-23,lewis-hamilton,Lewis Hamilton,ferrari,Ferrari,3,13.13
+12,Dutch Grand Prix,2026-08-23,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,4,9.75
+12,Dutch Grand Prix,2026-08-23,yuki-tsunoda,Yuki Tsunoda,racing-bulls,Racing Bulls,5,7.45
+13,Italian Grand Prix,2026-09-06,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,1,38.87
+13,Italian Grand Prix,2026-09-06,max-verstappen,Max Verstappen,red-bull,Red Bull,2,16.01
+13,Italian Grand Prix,2026-09-06,george-russell,George Russell,mercedes,Mercedes,3,7.94
+13,Italian Grand Prix,2026-09-06,pierre-gasly,Pierre Gasly,alpine,Alpine,4,6.17
+13,Italian Grand Prix,2026-09-06,oscar-piastri,Oscar Piastri,mclaren,McLaren,5,6.02
+14,Spanish Grand Prix,2026-09-13,max-verstappen,Max Verstappen,red-bull,Red Bull,1,23.38
+14,Spanish Grand Prix,2026-09-13,charles-leclerc,Charles Leclerc,ferrari,Ferrari,2,18.3
+14,Spanish Grand Prix,2026-09-13,lando-norris,Lando Norris,mclaren,McLaren,3,16.22
+14,Spanish Grand Prix,2026-09-13,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,4,9.66
+14,Spanish Grand Prix,2026-09-13,franco-colapinto,Franco Colapinto,alpine,Alpine,5,7.3
+15,Azerbaijan Grand Prix,2026-09-26,max-verstappen,Max Verstappen,red-bull,Red Bull,1,26.6
+15,Azerbaijan Grand Prix,2026-09-26,isack-hadjar,Isack Hadjar,red-bull,Red Bull,2,15.1
+15,Azerbaijan Grand Prix,2026-09-26,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,3,12.63
+15,Azerbaijan Grand Prix,2026-09-26,george-russell,George Russell,mercedes,Mercedes,4,12.39
+15,Azerbaijan Grand Prix,2026-09-26,oscar-piastri,Oscar Piastri,mclaren,McLaren,5,5.5
+16,Bahrain Grand Prix,2026-10-04,max-verstappen,Max Verstappen,red-bull,Red Bull,1,25.93
+16,Bahrain Grand Prix,2026-10-04,lewis-hamilton,Lewis Hamilton,ferrari,Ferrari,2,25.28
+16,Bahrain Grand Prix,2026-10-04,fernando-alonso,Fernando Alonso,aston-martin,Aston Martin,3,11.22
+16,Bahrain Grand Prix,2026-10-04,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,4,6.14
+16,Bahrain Grand Prix,2026-10-04,charles-leclerc,Charles Leclerc,ferrari,Ferrari,5,5.14
+17,Singapore Grand Prix,2026-10-11,max-verstappen,Max Verstappen,red-bull,Red Bull,1,30.65
+17,Singapore Grand Prix,2026-10-11,charles-leclerc,Charles Leclerc,ferrari,Ferrari,2,11.57
+17,Singapore Grand Prix,2026-10-11,george-russell,George Russell,mercedes,Mercedes,3,11.54
+17,Singapore Grand Prix,2026-10-11,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,4,7.97
+17,Singapore Grand Prix,2026-10-11,lewis-hamilton,Lewis Hamilton,ferrari,Ferrari,5,7.67
+18,United States Grand Prix,2026-10-25,charles-leclerc,Charles Leclerc,ferrari,Ferrari,1,25.7
+18,United States Grand Prix,2026-10-25,max-verstappen,Max Verstappen,red-bull,Red Bull,2,24.0
+18,United States Grand Prix,2026-10-25,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,3,18.7
+18,United States Grand Prix,2026-10-25,lando-norris,Lando Norris,mclaren,McLaren,4,7.5
+18,United States Grand Prix,2026-10-25,lewis-hamilton,Lewis Hamilton,ferrari,Ferrari,5,5.4
+19,Mexican Grand Prix,2026-11-01,max-verstappen,Max Verstappen,red-bull,Red Bull,1,20.6
+19,Mexican Grand Prix,2026-11-01,sergio-perez,Sergio Pérez,cadillac,Cadillac,2,18.6
+19,Mexican Grand Prix,2026-11-01,lewis-hamilton,Lewis Hamilton,ferrari,Ferrari,3,15.4
+19,Mexican Grand Prix,2026-11-01,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,4,11.3
+19,Mexican Grand Prix,2026-11-01,charles-leclerc,Charles Leclerc,ferrari,Ferrari,5,5.6
+20,São Paulo Grand Prix,2026-11-08,max-verstappen,Max Verstappen,red-bull,Red Bull,1,20.62
+20,São Paulo Grand Prix,2026-11-08,sergio-perez,Sergio Pérez,cadillac,Cadillac,2,18.45
+20,São Paulo Grand Prix,2026-11-08,lewis-hamilton,Lewis Hamilton,ferrari,Ferrari,3,15.04
+20,São Paulo Grand Prix,2026-11-08,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,4,11.32
+20,São Paulo Grand Prix,2026-11-08,charles-leclerc,Charles Leclerc,ferrari,Ferrari,5,5.62
+21,Las Vegas Grand Prix,2026-11-22,max-verstappen,Max Verstappen,red-bull,Red Bull,1,26.73
+21,Las Vegas Grand Prix,2026-11-22,oscar-piastri,Oscar Piastri,mclaren,McLaren,2,19.58
+21,Las Vegas Grand Prix,2026-11-22,kimi-antonelli,Kimi Antonelli,mercedes,Mercedes,3,8.21
+21,Las Vegas Grand Prix,2026-11-22,lewis-hamilton,Lewis Hamilton,ferrari,Ferrari,4,6.66
+21,Las Vegas Grand Prix,2026-11-22,george-russell,George Russell,mercedes,Mercedes,5,6.15

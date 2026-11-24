@@ -1,0 +1,9 @@
+# Dados brutos (clone do F1DB, baixado pelo pipeline)
+data/raw/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
