@@ -4,6 +4,8 @@ Pipeline em Python (pandas) que transforma os dados abertos da temporada 2026 de
 limpa e validada (CSV e Excel) e em um **painel interativo** (HTML + JavaScript, sem dependências) com campeonato,
 pilotos, equipes, corridas e pit stops.
 
+**Painel online:** https://victorchantre08.github.io/dashboard-formula1/
+
 | Visão geral (tema claro) | Pilotos (tema escuro) |
 |---|---|
 | ![Visão geral do painel](docs/painel-visao-geral.png) | ![Tabela de pilotos](docs/painel-pilotos.png) |
@@ -76,8 +78,13 @@ classificação completa) e **Pit stops** (distribuição e mediana por equipe).
 - Tema claro e escuro (segue o sistema), tooltips, navegação por teclado, visão em tabela dos gráficos e layout
   para celular. Cores categóricas fixas por piloto, validadas para daltonismo.
 
-Para publicar no GitHub Pages, ative em *Settings > Pages > Source: GitHub Actions*; o fluxo
-`.github/workflows/pages.yml` publica a pasta `dashboard/`.
+### Painel online
+
+O painel é publicado pelo GitHub Pages, a partir da branch `main`. Para ativar (uma vez só): em
+**Settings → Pages**, escolha *Deploy from a branch*, branch `main` e pasta `/ (root)`. O GitHub gera o endereço
+`https://<usuario>.github.io/<repositorio>/`; o `index.html` da raiz leva direto para `dashboard/`. Qualquer
+pessoa com o link pode abrir e usar os filtros, sem instalar nada. A cada push na `main` o
+site é republicado.
 
 ## Saídas
 
@@ -155,7 +162,7 @@ duas corridas na temporada: Catar (29/11) e Abu Dhabi (06/12).
 ## Estrutura do repositório
 
 ```
-f1-2026-analytics/
+dashboard-formula1/
 ├── run_pipeline.py          # ponto de entrada (CLI)
 ├── requirements.txt
 ├── src/f1pipeline/
@@ -166,10 +173,11 @@ f1-2026-analytics/
 │   ├── validate.py          # checagens de qualidade
 │   ├── load.py              # CSV + Excel + manifesto
 │   └── export.py            # tabelas -> dashboard/data.json
+├── index.html               # redireciona para dashboard/ (GitHub Pages)
 ├── dashboard/               # index.html + data.json (painel)
 ├── tests/                   # pytest (helpers, mini-temporada, exportação)
 ├── docs/                    # imagens do README
-├── .github/workflows/       # atualização de dados e publicação no Pages
+├── .github/workflows/       # atualização automática dos dados
 ├── data/
 │   ├── raw/                 # clone do F1DB (ignorado pelo git)
 │   └── processed/           # CSVs gerados

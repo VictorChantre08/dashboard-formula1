@@ -9,7 +9,6 @@ on:
 
 permissions:
   contents: write
-  actions: write   # para disparar a publicação do painel (push feito pelo GITHUB_TOKEN não dispara outros fluxos)
 
 jobs:
   update:
@@ -35,7 +34,4 @@ jobs:
           else
             git commit -m "dados: atualização automática ($(date -u +%F))"
             git push
-            gh workflow run pages.yml || echo "Pages não configurado; painel não republicado."
           fi
-        env:
-          GH_TOKEN: ${{ github.token }}
