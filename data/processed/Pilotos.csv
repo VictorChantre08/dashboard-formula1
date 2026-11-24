@@ -1,4 +1,4 @@
-Piloto_ID,Nome,Nome_Completo,Sigla,Numero,Nacionalidade,Pais_Nascimento,Cidade_Nascimento,Data_Nascimento,Equipe_2026,Papel,Posicao_Campeonato,Pontos_Oficiais,Pontos_Corridas,Pontos_Sprints,Pontos_Calculados,Diferenca,GPs_Disputados,Vitorias,Podios,Poles,Voltas_Mais_Rapidas,Abandonos
+Piloto_ID,Nome,Nome_Completo,Sigla,Número,Nacionalidade,País_Nascimento,Cidade_Nascimento,Data_Nascimento,Equipe_2026,Papel,Posição_Campeonato,Pontos_Oficiais,Pontos_Corridas,Pontos_Sprints,Pontos_Calculados,Diferença,GPs_Disputados,Vitórias,Pódios,Poles,Voltas_Mais_Rápidas,Abandonos
 kimi-antonelli,Kimi Antonelli,Andrea Kimi Antonelli,ANT,12.0,Italian,Italy,Bologna,2006-08-25,Mercedes,Piloto de corrida,1,402,371,31,402,0,21,9,16,8,8,0
 max-verstappen,Max Verstappen,Max Emilian Verstappen,VER,3.0,Dutch,Belgium,Hasselt,1997-09-30,Red Bull,Piloto de corrida,2,304,284,20,304,0,21,4,13,2,2,3
 lewis-hamilton,Lewis Hamilton,Lewis Carl Davidson Hamilton,HAM,44.0,British,United Kingdom,Stevenage,1985-01-07,Ferrari,Piloto de corrida,3,267,240,27,267,0,21,1,7,1,2,1

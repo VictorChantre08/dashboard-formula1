@@ -1,4 +1,4 @@
-Rodada,GP,Data,Piloto_ID,Piloto,Numero,Equipe_ID,Equipe,Ranking_Parada,Parada,Volta,Tempo,Tempo_s
+Rodada,GP,Data,Piloto_ID,Piloto,Número,Equipe_ID,Equipe,Ranking_Parada,Parada,Volta,Tempo,Tempo_s
 1,Australian Grand Prix,2026-03-08,franco-colapinto,Franco Colapinto,43,alpine,Alpine,1,1,9,27.733,27.733
 1,Australian Grand Prix,2026-03-08,lando-norris,Lando Norris,1,mclaren,McLaren,2,1,11,18.266,18.266
 1,Australian Grand Prix,2026-03-08,esteban-ocon,Esteban Ocon,31,haas,Haas,3,1,11,18.570,18.57

@@ -5,6 +5,9 @@ Modelo de saída (nomes das colunas em português, IDs preservados para joins):
   Fatos     : Resultados_Corrida, Resultados_Sprint, Qualificacao, Grid_Largada,
               Pit_Stops, Voltas_Rapidas, Piloto_do_Dia
   Classif.  : Classif_Pilotos, Classif_Construtores, *_Rodada (evolução do campeonato)
+
+Aqui os nomes não levam acento, para facilitar o código. Nos arquivos gravados (CSV e Excel) eles saem com a
+grafia correta (Calendário, Posição, Situação...): veja names.py.
 """
 from __future__ import annotations
 

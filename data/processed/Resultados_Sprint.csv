@@ -1,4 +1,4 @@
-Rodada,GP,Data,Piloto_ID,Piloto,Numero,Equipe_ID,Equipe,Grid,Posicao,Situacao,Voltas,Tempo,Penalidade_Tempo,Gap,Intervalo,Motivo_Abandono,Pontos
+Rodada,GP,Data,Piloto_ID,Piloto,Número,Equipe_ID,Equipe,Grid,Posição,Situação,Voltas,Tempo,Penalidade_Tempo,Gap,Intervalo,Motivo_Abandono,Pontos
 2,Chinese Grand Prix,2026-03-15,george-russell,George Russell,63,mercedes,Mercedes,1,1,Classificado,19.0,33:38.998,,,,,8
 2,Chinese Grand Prix,2026-03-15,charles-leclerc,Charles Leclerc,16,ferrari,Ferrari,6,2,Classificado,19.0,33:39.672,,+0.674,+0.674,,7
 2,Chinese Grand Prix,2026-03-15,lewis-hamilton,Lewis Hamilton,44,ferrari,Ferrari,4,3,Classificado,19.0,33:41.552,,+2.554,+1.880,,6

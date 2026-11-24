@@ -1,4 +1,4 @@
-Rodada,GP,Data,Sessao,Piloto_ID,Piloto,Numero,Equipe_ID,Equipe,Posicao,Situacao,Q1,Q2,Q3,Q1_s,Q2_s,Q3_s,Gap,Voltas
+Rodada,GP,Data,Sessão,Piloto_ID,Piloto,Número,Equipe_ID,Equipe,Posição,Situação,Q1,Q2,Q3,Q1_s,Q2_s,Q3_s,Gap,Voltas
 1,Australian Grand Prix,2026-03-08,Qualificação,george-russell,George Russell,63,mercedes,Mercedes,1,Classificado,1:19.507,1:18.934,1:18.518,79.507,78.934,78.518,,22.0
 1,Australian Grand Prix,2026-03-08,Qualificação,kimi-antonelli,Kimi Antonelli,12,mercedes,Mercedes,2,Classificado,1:20.120,1:19.435,1:18.811,80.12,79.435,78.811,+0.293,18.0
 1,Australian Grand Prix,2026-03-08,Qualificação,isack-hadjar,Isack Hadjar,6,red-bull,Red Bull,3,Classificado,1:20.023,1:19.653,1:19.303,80.023,79.653,79.303,+0.785,19.0

@@ -64,7 +64,7 @@ O painel responde, com os dados da temporada até a 21ª etapa (Las Vegas), perg
 4. **Corridas:** como foi cada Grande Prêmio, da largada à bandeirada?
 5. **Pit stops:** qual equipe é mais rápida nas paradas e qual foi a parada mais rápida do ano?
 
-Todas as respostas podem ser testadas: ao mudar o intervalo de corridas, o líder, as médias e as tabelas mudam junto. A pergunta "quem está melhor nas últimas 5 corridas?" tem resposta diferente da pergunta sobre a temporada inteira.
+Dá para testar cada resposta: ao mudar o intervalo de corridas, o líder, as médias e as tabelas mudam juntos. A pergunta "quem está melhor nas últimas 5 corridas?" tem uma resposta diferente da pergunta sobre a temporada inteira.
 
 ## Como abrir
 
@@ -78,7 +78,7 @@ python -m http.server 8000 --directory dashboard
 
 Depois abra `http://localhost:8000` no navegador.
 
-**Publicar o seu próprio (GitHub Pages):** em **Settings → Pages**, escolha *Deploy from a branch*, branch `main` e pasta `/ (root)`. O GitHub gera um endereço no formato `https://<usuario>.github.io/<repositorio>/`. O `index.html` da raiz leva direto para `dashboard/`.
+**Publicar a sua própria cópia (GitHub Pages):** em **Settings → Pages**, escolha *Deploy from a branch*, branch `main` e pasta `/ (root)`. O GitHub gera um endereço no formato `https://<usuario>.github.io/<repositorio>/`. O `index.html` da raiz leva direto para `dashboard/`.
 
 ## Como navegar
 
@@ -128,17 +128,17 @@ Números até a 21ª etapa (Las Vegas), com a temporada inteira selecionada. Cad
 
 1. **O título de pilotos já está decidido.** Kimi Antonelli lidera com 402 pontos, 98 à frente de Max Verstappen, e venceu 9 das 21 corridas. Depois da R19, a vantagem era de 119 pontos e só restavam 100 em disputa (4 corridas de 25 pontos). Na R18 ainda não estava: 123 de vantagem contra 125 possíveis.
 2. **A Mercedes dominou a temporada.** São 666 pontos, 12 das 21 vitórias e apenas 2 abandonos em 42 participações de carro. O título de construtores ficou decidido na R20.
-3. **Verstappen terminou o ano em alta.** Venceu 4 das últimas 6 corridas (R16, R17, R19 e R21) e foi quem mais pontuou nas últimas 5 rodadas: 116 pontos contra 82 de Antonelli.
+3. **Verstappen chega ao fim do ano em alta.** Venceu 4 das últimas 6 corridas (R16, R17, R19 e R21) e foi quem mais pontuou nas últimas 5 rodadas: 116 pontos contra 82 de Antonelli.
 4. **A Red Bull depende de um piloto.** Verstappen fez 304 dos 440 pontos da equipe (69%). Isack Hadjar, o companheiro, tem 122.
 5. **O 4º lugar foi decidido no desempate.** George Russell e Lando Norris têm 264 pontos e 3 vitórias cada. Russell fica à frente por ter mais segundos lugares (4 contra 2).
 6. **A pole vale muito.** 14 das 21 poles viraram vitória (67%).
-7. **A confiabilidade separou o fim do grid.** A Aston Martin fez 7 pontos e abandonou 20 vezes em 42 participações (Stroll 13, Alonso 7). A Cadillac não pontuou e abandonou 15 vezes.
+7. **O fim do grid sofreu com a confiabilidade.** A Aston Martin fez 7 pontos e abandonou 20 vezes em 42 participações (Stroll 13, Alonso 7). A Cadillac não pontuou e abandonou 15 vezes.
 8. **Os pit stops são parecidos entre as equipes.** A mediana geral é de 24,2 s. Mercedes e Alpine (23,6 s) são as mais rápidas e a Cadillac (25,9 s) a mais lenta: 2,3 s separam os extremos. A parada mais rápida do ano foi de Nico Hülkenberg, 17,1 s, na Holanda (R12).
 
 ## Regras e fórmulas usadas
 
 - **Pontos:** corrida + sprint. Pilotos e equipes são somados pelos pontos reais da fonte.
-- **Título decidido:** a vantagem do líder sobre o segundo passa o máximo de pontos que ainda podem ser feitos. Pilotos: 25 por corrida restante, mais 8 por sprint restante. Equipes: 43 por corrida (25 + 18) e 15 por sprint (8 + 7). Não há ponto extra pela volta mais rápida.
+- **Título decidido:** a vantagem do líder sobre o segundo passa o máximo de pontos que ainda podem ser conquistados. Pilotos: 25 por corrida restante, mais 8 por sprint restante. Equipes: 43 por corrida (25 + 18) e 15 por sprint (8 + 7). Não há ponto extra pela volta mais rápida.
 - **Desempate:** contagem de melhores resultados (mais vitórias, depois mais segundos lugares e assim por diante), como no regulamento.
 - **Saldo de posições:** posição de largada menos posição de chegada. A média de chegada ignora quem não terminou.
 - **Pit stops:** as paradas de 600 s ou mais são tratadas como corrida interrompida e ficam fora dos cálculos (veja as limitações).
@@ -202,8 +202,8 @@ Requisitos: Python 3.10+ e `git` instalado (testado com Python 3.13 e pandas 3.0
 
 ### Saídas
 
-- `data/processed/*.csv`: uma tabela por arquivo (UTF-8, datas em `YYYY-MM-DD`)
-- `output/F1_2026_base_de_dados.xlsx`: as mesmas tabelas, mais as abas `LEIA-ME` e `Validacao`
+- `data/processed/*.csv`: uma tabela por arquivo (UTF-8, datas em `AAAA-MM-DD`)
+- `output/F1_2026_base_de_dados.xlsx`: as mesmas tabelas, mais as abas `LEIA-ME` e `Validação`
 - `data/processed/manifest.json`: versão da fonte e contagem de linhas por tabela
 - `dashboard/data.json`: dados do painel
 
@@ -211,20 +211,20 @@ Requisitos: Python 3.10+ e `git` instalado (testado com Python 3.13 e pandas 3.0
 
 | Tipo | Tabelas |
 |---|---|
-| Dimensões | `Calendario`, `Pilotos`, `Equipes`, `Equipe_Pilotos` |
-| Fatos | `Resultados_Corrida`, `Resultados_Sprint`, `Qualificacao`, `Grid_Largada`, `Pit_Stops`, `Voltas_Rapidas`, `Piloto_do_Dia` |
-| Classificações | `Classif_Pilotos`, `Classif_Construtores`, `Classif_Pilotos_Rodada`, `Classif_Construtores_Rodada` |
+| Dimensões | `Calendário`, `Pilotos`, `Equipes`, `Equipe_Pilotos` |
+| Fatos | `Resultados_Corrida`, `Resultados_Sprint`, `Qualificação`, `Grid_Largada`, `Pit_Stops`, `Voltas_Rápidas`, `Piloto_do_Dia` |
+| Classificações | `Classif_Pilotos`, `Classif_Construtores`, `Classif_Pilotos_Rodada`, `Classif_Construtores_Rodada` (`Classif_` é abreviação de classificação) |
 
 As tabelas se relacionam por `Rodada`, `Piloto_ID` e `Equipe_ID` (esquema estrela: fatos ligados às dimensões por esses IDs). Notas de modelagem:
 
-- `Posicao` vazia significa não classificado; o motivo está em `Situacao` (`DNF`, `DNS`, `NC`...).
+- `Posição` vazia significa não classificado; o motivo está em `Situação` (`DNF`, `DNS`, `NC`...).
 - Horários em UTC.
-- `Pilotos` e `Equipes` trazem `Pontos_Oficiais` (da classificação), `Pontos_Calculados` (corridas + sprints) e `Diferenca`, para auditar a consistência da própria base.
+- `Pilotos` e `Equipes` trazem `Pontos_Oficiais` (da classificação), `Pontos_Calculados` (corridas + sprints) e `Diferença`, para auditar a consistência da própria base.
 - Pilotos reservas aparecem em `Pilotos` com `Papel = Piloto de testes/reserva` e, quando atendem a duas equipes, ambas ficam listadas.
 
 ### Validação e qualidade
 
-O pipeline roda 10 verificações a cada execução (aba `Validacao` e saída no terminal). Na execução de referência (F1DB v2026.21.0, rodadas 1 a 21), todas passaram: 2.337 pontos fecham entre pilotos e construtores, sem diferença em nenhum piloto ou equipe, e há 21 vitórias para 21 corridas.
+O pipeline roda 10 verificações a cada execução (aba `Validação` e saída no terminal). Na execução de referência (F1DB v2026.21.0, rodadas 1 a 21), todas passaram: 2.337 pontos fecham entre pilotos e construtores, sem diferença em nenhum piloto ou equipe, e há 21 vitórias para 21 corridas.
 
 Conferências externas feitas durante o desenvolvimento:
 
@@ -236,15 +236,16 @@ Conferências externas feitas durante o desenvolvimento:
 | Calendário (23 rodadas, GPs, cidades e fins de semana de prova) contra a [Crash.net](https://www.crash.net/f1/news/1073119/1/2026-f1-calendar-full-race-schedule-revealed) | Confere, incluindo Sepang |
 | Tabelas do pipeline contra uma implementação independente anterior (script manual com openpyxl) | 49.881 células comparadas, nenhuma divergência |
 
-Testes automatizados (`pytest`, 13 testes): leitura de YAML, transformação e validação de uma mini-temporada sintética ponta a ponta (inclui o caso de a validação falhar quando os pontos não fecham) e exportação para o painel (formato das linhas, exclusão de paradas de bandeira vermelha, rejeição de sprint sem corrida).
+Testes automatizados (`pytest`, 18 testes): leitura de YAML, transformação e validação de uma mini-temporada sintética ponta a ponta (inclui o caso de a validação falhar quando os pontos não fecham), exportação para o painel (formato das linhas, exclusão de paradas de bandeira vermelha, rejeição de sprint sem corrida) e grafia dos arquivos gerados (nomes e cabeçalhos com acento, singular e plural no texto da aba `LEIA-ME`).
 
 ### Decisões técnicas
 
 - **pandas, e não PySpark.** A base inteira tem alguns milhares de linhas; mesmo a história completa da F1 cabe em memória. Spark adicionaria complexidade e custo de inicialização sem ganho. O pipeline é organizado em extract/transform/validate/load justamente para que a troca de ferramenta seja localizada se o volume crescer.
 - **Leitura de YAML sem a regra sexagesimal do YAML 1.1.** O PyYAML padrão transforma `14:00` em `840`; o loader em `yamlio.py` evita isso (há teste cobrindo o caso).
 - **Rastreabilidade.** Dado bruto fica separado do processado, e o commit da fonte é registrado a cada execução.
+- **Nomes sem acento no código, com acento nos arquivos.** Dentro do código as tabelas e colunas não levam acento (`Calendario`, `Posicao`), o que facilita digitar e buscar. Na hora de gravar, `names.py` troca pelos nomes corretos (`Calendário`, `Posição`) em CSV, Excel e relatório de validação. Os nomes dos arquivos CSV também levam acento.
 - **Validação como parte do pipeline**, e não como passo manual: se os pontos não fecham, a execução falha.
-- **Painel sem framework e sem build.** HTML, CSS e JavaScript puros com SVG inline: abre em qualquer servidor estático e não depende de CDN. Os cálculos por intervalo de rodadas ficam no navegador, então o JSON leva só fatos, sem agregados pré-calculados.
+- **Painel sem framework e sem build.** HTML, CSS e JavaScript puros com SVG inline: abre em qualquer servidor estático e não usa bibliotecas externas. A única chamada externa é a fonte Inter, do Google Fonts; sem ela, o painel usa a fonte do sistema. Os cálculos por intervalo de rodadas ficam no navegador, então o JSON leva só fatos, sem agregados pré-calculados.
 - **Cores categóricas fixas por piloto** (os 8 primeiros), com tema claro e escuro validados para daltonismo, e visão em tabela dos gráficos para quem não depende de cor.
 
 ### Atualização automática
@@ -266,8 +267,9 @@ dashboard-formula1/
 │   ├── transform.py         # YAML -> tabelas (pandas)
 │   ├── validate.py          # checagens de qualidade
 │   ├── load.py              # CSV + Excel + manifesto
+│   ├── names.py             # nomes com acento para arquivos e planilhas
 │   └── export.py            # tabelas -> dashboard/data.json
-├── tests/                   # pytest (helpers, mini-temporada, exportação)
+├── tests/                   # pytest (helpers, mini-temporada, exportação, nomes)
 ├── docs/img/                # imagens do README
 ├── .github/workflows/       # atualização automática dos dados
 ├── data/

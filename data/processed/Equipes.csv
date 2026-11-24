@@ -1,4 +1,4 @@
-Equipe_ID,Nome,Nome_Completo,Pais,Equipe_Entrante,Motor_Fabricante,Chassi,Unidade_de_Potencia,Pneus,Posicao_Campeonato,Pontos_Oficiais,Pontos_Corridas,Pontos_Sprints,Pontos_Calculados,Diferenca,Vitorias,Podios,Poles,Abandonos
+Equipe_ID,Nome,Nome_Completo,País,Equipe_Entrante,Motor_Fabricante,Chassi,Unidade_de_Potência,Pneus,Posição_Campeonato,Pontos_Oficiais,Pontos_Corridas,Pontos_Sprints,Pontos_Calculados,Diferença,Vitórias,Pódios,Poles,Abandonos
 mercedes,Mercedes,Mercedes AMG F1,Germany,Mercedes-AMG Petronas Formula One Team,Mercedes,F1 W17,AMG F1 M17,Pirelli,1,666,601,65,666,0,12,24,13,2
 ferrari,Ferrari,Scuderia Ferrari,Italy,Scuderia Ferrari HP,Ferrari,SF-26,067/6,Pirelli,2,517,456,61,517,0,2,13,1,3
 red-bull,Red Bull,Red Bull Racing,Austria,Oracle Red Bull Racing,Red Bull Ford,RB22,DM01,Pirelli,3,440,420,20,440,0,4,16,2,5

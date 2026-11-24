@@ -1,4 +1,4 @@
-Rodada,Data,Hora_UTC,GP,Nome_Oficial,Circuito,Cidade,Pais,Formato_Qualificacao,Fim_de_Semana_Sprint,Voltas,Distancia_km,Extensao_km,Curvas,Tipo_Circuito,Sentido,Status,Vencedor,Pole,Volta_Mais_Rapida
+Rodada,Data,Hora_UTC,GP,Nome_Oficial,Circuito,Cidade,País,Formato_Qualificação,Fim_de_Semana_Sprint,Voltas,Distância_km,Extensão_km,Curvas,Tipo_Circuito,Sentido,Status,Vencedor,Pole,Volta_Mais_Rápida
 1,2026-03-08,04:00,Australian Grand Prix,Formula 1 Qatar Airways Australian Grand Prix 2026,Albert Park Circuit,Melbourne,Australia,KNOCKOUT,Não,58,306.124,5.278,14,STREET,CLOCKWISE,Concluída,George Russell,George Russell,Max Verstappen
 2,2026-03-15,07:00,Chinese Grand Prix,Formula 1 Heineken Chinese Grand Prix 2026,Shanghai International Circuit,Shanghai,China,KNOCKOUT,Sim,56,305.066,5.451,16,RACE,CLOCKWISE,Concluída,Kimi Antonelli,Kimi Antonelli,Kimi Antonelli
 3,2026-03-29,05:00,Japanese Grand Prix,Formula 1 Aramco Japanese Grand Prix 2026,Suzuka Circuit,Suzuka,Japan,KNOCKOUT,Não,53,307.471,5.807,18,RACE,CLOCKWISE,Concluída,Kimi Antonelli,Kimi Antonelli,Kimi Antonelli

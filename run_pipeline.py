@@ -13,6 +13,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 
 from f1pipeline import export, extract, load, transform, validate  # noqa: E402
+from f1pipeline.names import table_name  # noqa: E402
 from f1pipeline.config import DASHBOARD_DIR, DEFAULT_YEAR, OUTPUT_DIR, PROCESSED_DIR, RAW_DIR  # noqa: E402
 
 
@@ -30,11 +31,11 @@ def main(argv=None) -> int:
     print("2/4 Transformação")
     tables = transform.build_tables(args.raw_dir, args.year)
     for name, df in tables.items():
-        print(f"    {name:<28}{len(df):>6} linhas")
+        print(f"    {table_name(name):<28}{len(df):>6} linhas")
 
     print("3/4 Validação")
     report = validate.run_checks(tables)
-    print(report[["Verificacao", "Valor", "Resultado"]].to_string(index=False))
+    print(report[["Verificação", "Valor", "Resultado"]].to_string(index=False))
 
     print("4/4 Carga")
     load.write_csvs(tables, PROCESSED_DIR)

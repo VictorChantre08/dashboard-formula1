@@ -11,13 +11,13 @@ def run_checks(tables: dict[str, pd.DataFrame]) -> pd.DataFrame:
     rows: list[dict] = []
 
     def check(name: str, value, ok: bool, description: str) -> None:
-        rows.append({"Verificacao": name, "Valor": value, "Resultado": "OK" if ok else "VERIFICAR",
-                     "Descricao": description})
+        rows.append({"Verificação": name, "Valor": value, "Resultado": "OK" if ok else "VERIFICAR",
+                     "Descrição": description})
 
     done = int((cal["Status"] == "Concluída").sum())
     last_round = int(rc["Rodada"].max())
     check("Rodadas concluídas", done, last_round == done,
-          "Rodadas com status Concluída = última rodada com resultado de corrida.")
+          "O número de rodadas concluídas deve ser igual à última rodada com resultado de corrida.")
 
     pts_pil_off, pts_pil_calc = int(cp["Pontos"].sum()), int(pil["Pontos_Calculados"].sum())
     check("Pontos de pilotos (oficial)", pts_pil_off, pts_pil_off == pts_pil_calc,
@@ -25,21 +25,21 @@ def run_checks(tables: dict[str, pd.DataFrame]) -> pd.DataFrame:
     pts_con_off, pts_con_calc = int(cc["Pontos"].sum()), int(eq["Pontos_Calculados"].sum())
     check("Pontos de construtores (oficial)", pts_con_off, pts_con_off == pts_con_calc,
           f"Deve ser igual aos pontos calculados por equipe ({pts_con_calc}).")
-    check("Pontos pilotos x construtores", pts_pil_off - pts_con_off, pts_pil_off == pts_con_off,
-          "Os dois campeonatos devem somar o mesmo total.")
+    check("Pontos de pilotos × construtores", pts_pil_off - pts_con_off, pts_pil_off == pts_con_off,
+          "Diferença entre o total de pontos de pilotos e o de construtores (esperado: 0).")
     check("Pilotos com diferença de pontos", int((pil["Diferenca"] != 0).sum()), (pil["Diferenca"] == 0).all(),
-          "Total oficial do piloto difere do calculado.")
+          "Pilotos cujo total oficial difere do calculado (esperado: 0).")
     check("Equipes com diferença de pontos", int((eq["Diferenca"] != 0).sum()), (eq["Diferenca"] == 0).all(),
-          "Total oficial da equipe difere do calculado.")
+          "Equipes cujo total oficial difere do calculado (esperado: 0).")
     check("Vitórias contadas", int(pil["Vitorias"].sum()), int(pil["Vitorias"].sum()) == done,
           "Uma vitória por corrida concluída.")
     dup = int(rc.duplicated(["Rodada", "Piloto_ID"]).sum())
-    check("Duplicatas em Resultados_Corrida", dup, dup == 0, "Chave (Rodada, Piloto_ID) deve ser única.")
+    check("Duplicatas em Resultados_Corrida", dup, dup == 0, "A chave (Rodada, Piloto_ID) deve ser única.")
     check("Sprints com resultado", int(rs["Rodada"].nunique()),
           int(rs["Rodada"].nunique()) == int((cal["Fim_de_Semana_Sprint"].eq("Sim") & cal["Status"].eq("Concluída")).sum()),
           "Todo fim de semana de sprint concluído tem resultado de sprint.")
     unnamed = int(rc["Piloto"].isna().sum() + rc["Equipe"].isna().sum())
-    check("IDs sem nome em Resultados_Corrida", unnamed, unnamed == 0, "Todo piloto/equipe deve ter nome no cadastro.")
+    check("IDs sem nome em Resultados_Corrida", unnamed, unnamed == 0, "Todo piloto e toda equipe devem ter nome no cadastro.")
     return pd.DataFrame(rows)
 
 

@@ -407,7 +407,7 @@ function evolutionDraw(W) {
   const stepW = n === 1 ? iw : (iw - 2 * xPad) / (n - 1);
   const lblStep = Math.max(1, Math.ceil((compact ? 24 : 34) / stepW));
   const svg = sv('svg', { class: 'chart', width: W, height: H, viewBox: `0 0 ${W} ${H}`, role: 'img', tabindex: 0,
-    'aria-label': `Gráfico de linhas: ${gapMode ? 'distância para o líder' : 'pontos acumulados'} de ${sel.map(dn).join(', ')} da rodada ${state.from} à ${state.to}. Use a seta esquerda e direita para ler cada rodada ou abra a visão em tabela.` });
+    'aria-label': `Gráfico de linhas: ${gapMode ? 'distância para o líder' : 'pontos acumulados'} de ${sel.map(dn).join(', ')} da rodada ${state.from} à ${state.to}. Use as setas para a esquerda e para a direita para ler cada rodada ou abra a visão em tabela.` });
   ticks.forEach(t => {
     const yy = y(t);
     svg.append(sv('line', { class: t === 0 ? 'axl' : 'gl', x1: m.l, x2: W - m.r, y1: yy, y2: yy }),
@@ -512,7 +512,7 @@ function viewGeral() {
     h('div', { class: 'pills' },
       h('span', { class: 'pill', text: `${signed(lead.pts - second.pts)} sobre ${dn(second.i)}` }),
       full ? (decided ? h('span', { class: 'pill good' }, checkIcon(), `Título decidido na R${clD.round}`) : h('span', { class: 'pill', text: 'Título em aberto' })) : null),
-    h('div', { class: 'hero-foot', text: left.length ? `Restam ${left.length} ${plural(left.length, 'corrida', 'corridas')} (${left.map(x => x.name).join(', ')}) e no máximo ${f0(rem)} pontos.` : 'Temporada encerrada.' }));
+    h('div', { class: 'hero-foot', text: left.length ? `${left.length === 1 ? 'Resta' : 'Restam'} ${left.length} ${plural(left.length, 'corrida', 'corridas')} (${left.map(x => x.name).join(', ')}) e no máximo ${f0(rem)} ${plural(rem, 'ponto', 'pontos')}.` : 'Temporada encerrada.' }));
 
   let poleWins = 0, poleN = 0;
   for (const r of doneRounds) { const p = rs.find(x => x.round === r && x.pole); if (p) { poleN++; if (p.pos === 1) poleWins++; } }
@@ -520,7 +520,7 @@ function viewGeral() {
   const tiles = h('div', { class: 'tiles' },
     tile('Corridas no período', [`${doneRounds.length} `, h('small', { text: `de ${total}` })], next && state.to === last ? `Próxima: ${next.name}, ${dm(next.date)}` : `Até R${state.to} · ${rd(state.to).name}`),
     tile('Construtores', T[0].pts ? tn(T[0].i) : '—', [`${f0(T[0].pts)} pts · ${signed(T[0].pts - T[1].pts)} sobre ${tn(T[1].i)}`, tDecided ? h('div', null, h('span', { class: 'pill good', style: 'margin-top:6px' }, checkIcon(), `Decidido na R${clT.round}`)) : null]),
-    tile('Pole e vitória', [`${poleWins} `, h('small', { text: `de ${poleN}` })], 'corridas em que o pole venceu'),
+    tile('Pole e vitória', [`${poleWins} `, h('small', { text: `de ${poleN}` })], 'corridas em que a pole virou vitória'),
     tile('Vencedores diferentes', [`${winners.size} `, h('small', { text: plural(winners.size, 'piloto', 'pilotos') })], `de ${winTeams.size} ${plural(winTeams.size, 'equipe', 'equipes')}`));
 
   const grid1 = h('div', { class: 'grid g-hero' }, hero, tiles);
@@ -585,7 +585,7 @@ function viewPilotos() {
     { k: 'pole', label: 'Poles', num: true, sort: true, val: a => a.pole, cell: a => a.pole ? String(a.pole) : h('span', { class: 'dash', text: '–' }) },
     { k: 'fl', label: 'VR', num: true, sort: true, val: a => a.fl, cell: a => a.fl ? String(a.fl) : h('span', { class: 'dash', text: '–' }) },
     { k: 'dnf', label: 'Aband.', num: true, sort: true, val: a => a.dnf, cell: a => a.dnf ? String(a.dnf) : h('span', { class: 'dash', text: '–' }) },
-    { k: 'grid', label: 'Grid méd.', num: true, sort: true, val: a => avg(a.gs, a.gn) ?? 99, cell: a => a.gn ? f1(a.gs / a.gn) : '–' },
+    { k: 'grid', label: 'Largada méd.', num: true, sort: true, val: a => avg(a.gs, a.gn) ?? 99, cell: a => a.gn ? f1(a.gs / a.gn) : '–' },
     { k: 'fin', label: 'Chegada méd.', num: true, sort: true, val: a => avg(a.fs, a.fn) ?? 99, cell: a => a.fn ? f1(a.fs / a.fn) : '–' },
     { k: 'gain', label: 'Δ pos./corrida', num: true, sort: true, val: a => a.gainN ? a.gain / a.gainN : -99, cell: a => { if (!a.gainN) return '–'; const g = a.gain / a.gainN; return h('span', { class: 'gain ' + (g > 0.05 ? 'up' : g < -0.05 ? 'dn' : '') }, g > 0.05 ? '▲ ' : g < -0.05 ? '▼ ' : '', f1(Math.abs(g))); } },
   ];
@@ -618,7 +618,7 @@ function dumbbellDraw(rs, W) {
   const ih = H - m.t - m.b, iw = W - m.l - m.r, stepW = iw / n;
   const y = p => m.t + (p - 0.5) / rowsN * ih, yD = m.t + (maxPos + 1.6) / rowsN * ih;
   const x = r => m.l + (r - state.from + 0.5) * stepW;
-  const svg = sv('svg', { class: 'chart', width: W, height: H, viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Largada e chegada por corrida: ' + rs.map(r => `R${r.round} largou ${r.grid ?? 'box'}, ${r.pos ? 'chegou ' + r.pos : 'não terminou'}`).join('; ') });
+  const svg = sv('svg', { class: 'chart', width: W, height: H, viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Largada e chegada por corrida: ' + rs.map(r => `R${r.round} largou ${r.grid ? 'em P' + r.grid : 'dos boxes'}, ${r.pos ? 'chegou em P' + r.pos : 'não terminou'}`).join('; ') });
   [1, 5, 10, 15, 20].filter(p => p <= maxPos).forEach(p => svg.append(sv('line', { class: 'gl', x1: m.l, x2: W - m.r, y1: y(p), y2: y(p) }), sv('text', { class: 'tk', x: m.l - 8, y: y(p) + 4, 'text-anchor': 'end', text: 'P' + p })));
   svg.append(sv('line', { class: 'axl', x1: m.l, x2: W - m.r, y1: yD - (yD - y(maxPos)) / 2, y2: yD - (yD - y(maxPos)) / 2 }), sv('text', { class: 'tk', x: m.l - 8, y: yD + 4, 'text-anchor': 'end', text: '✕' }));
   const lblStep = Math.max(1, Math.ceil((compact ? 22 : 34) / stepW));
@@ -632,8 +632,8 @@ function dumbbellDraw(rs, W) {
     if (o.pos) g.append(sv('circle', { cx: xx, cy: yf, r: 5, fill: 'var(--db-to)', stroke: 'var(--surface)', 'stroke-width': 2 }));
     else g.append(sv('path', { d: `M${xx - 4},${yD - 4}l8,8M${xx + 4},${yD - 4}l-8,8`, stroke: 'var(--crit)', 'stroke-width': 2, 'stroke-linecap': 'round' }));
     const rr = rd(o.round);
-    const desc = o.pos ? [{ l: 'Largada', v: o.grid ? 'P' + o.grid : 'box' }, { l: 'Chegada', v: 'P' + o.pos }, ...(o.grid ? [{ l: 'Posições', v: signed(o.grid - o.pos) }] : []), { l: 'Pontos', v: f0(o.pts) + (o.ps ? ` (${o.ps} sprint)` : '') }]
-      : [{ l: 'Largada', v: o.grid ? 'P' + o.grid : 'box' }, { l: o.status === 'DNS' ? 'Não largou' : o.status === 'NC' ? 'Não classificado' : 'Abandono', v: o.info || '—' }, { l: 'Pontos', v: f0(o.pts) }];
+    const desc = o.pos ? [{ l: 'Largada', v: o.grid ? 'P' + o.grid : 'boxes' }, { l: 'Chegada', v: 'P' + o.pos }, ...(o.grid ? [{ l: 'Posições', v: signed(o.grid - o.pos) }] : []), { l: 'Pontos', v: f0(o.pts) + (o.ps ? ` (${o.ps} sprint)` : '') }]
+      : [{ l: 'Largada', v: o.grid ? 'P' + o.grid : 'boxes' }, { l: o.status === 'DNS' ? 'Não largou' : o.status === 'NC' ? 'Não classificado' : 'Abandono', v: o.info || '—' }, { l: 'Pontos', v: f0(o.pts) }];
     const on = e => tipShow(e.clientX, e.clientY, tipBody(`R${rr.r} · ${rr.name}`, dm(rr.date), desc));
     g.addEventListener('pointermove', on); g.addEventListener('pointerleave', tipHide);
     g.addEventListener('focus', () => { const b = g.getBoundingClientRect(); on({ clientX: b.left + b.width / 2, clientY: b.top + 40 }); }); g.addEventListener('blur', tipHide);
@@ -755,7 +755,7 @@ function raceDetail(r) {
   const cols = [
     { k: 'pos', label: 'Pos', num: true, cell: x => x.pos ? h('span', { class: 'posb' + (x.pos === 1 ? ' p1' : ''), text: String(x.pos) }) : h('span', { class: 'tag warn', text: x.status === 'DNF' ? 'ABD' : x.status === 'DNS' ? 'NLG' : x.status }) },
     { k: 'd', label: 'Piloto', cell: x => h('span', null, h('span', { class: 'name', text: dn(x.d) }), h('span', { class: 'under', text: tn(x.t) })) },
-    { k: 'grid', label: 'Grid', num: true, cell: x => x.grid ? 'P' + x.grid : h('span', { class: 'muted', text: 'box' }) },
+    { k: 'grid', label: 'Largada', num: true, cell: x => x.grid ? 'P' + x.grid : h('span', { class: 'muted', text: 'boxes' }) },
     { k: 'gain', label: 'Δ', num: true, cell: x => { if (!x.grid || !x.pos) return h('span', { class: 'dash', text: '–' }); const g = x.grid - x.pos; return h('span', { class: 'gain ' + (g > 0 ? 'up' : g < 0 ? 'dn' : '') }, g > 0 ? '▲ ' : g < 0 ? '▼ ' : '', String(Math.abs(g))); } },
     { k: 'info', label: 'Resultado', cell: x => x.pos ? h('span', { class: 'muted', style: 'font-variant-numeric:tabular-nums', text: x.info || '–' }) : h('span', { class: 'muted', text: x.info || '' }) },
     { k: 'pts', label: 'Pts', num: true, cell: x => x.pts ? h('span', null, h('b', { text: f0(x.pts) }), x.ps ? h('span', { class: 'muted', text: ` (${x.ps} sprint)` }) : null) : h('span', { class: 'dash', text: '–' }) },
@@ -845,7 +845,7 @@ function drawChrome() {
   $('#meta').replaceChildren(h('div', null, h('b', { text: `Até R${last} · ${rd(last).name}` }), ` · ${total - last} ${plural(total - last, 'corrida restante', 'corridas restantes')}`), h('div', { text: `Dados F1DB ${m.release} · ${dmy(m.commitDate)}` }));
   $('#foot').replaceChildren(
     h('div', null, 'Fonte: ', h('a', { href: m.source, target: '_blank', rel: 'noopener', text: 'F1DB' }), ` (${m.release}, commit ${m.commit}), licença ${m.license}. Referências para auditoria: `, h('a', { href: 'https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship', target: '_blank', rel: 'noopener', text: 'Wikipedia' }), ' (classificação conferida na R17), ', h('a', { href: 'https://www.planetf1.com/news/f1-championship-standings-2026-las-vegas-grand-prix', target: '_blank', rel: 'noopener', text: 'PlanetF1' }), ' (conferida na R21) e a ', h('a', { href: 'https://www.formula1.com/en/results', target: '_blank', rel: 'noopener', text: 'página oficial de resultados' }), '.'),
-    h('div', { text: 'Título decidido: a vantagem do líder passa o máximo de pontos que ainda restam (25 por vitória, 43 por corrida para construtores, mais 8 e 15 em fins de semana com sprint). Ordem de desempate pela contagem de melhores resultados.' }),
+    h('div', { text: 'Título decidido: quando a vantagem do líder passa o máximo de pontos que ainda restam (25 por corrida para pilotos e 43 para construtores, mais 8 e 15 em fins de semana de sprint). O desempate é pela contagem de melhores resultados.' }),
     h('div', { text: 'Pipeline em Python (pandas) · painel gerado a partir de data.json.' }));
 }
 

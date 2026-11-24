@@ -1,4 +1,4 @@
-Rodada,GP,Data,Piloto_ID,Piloto,Numero,Equipe_ID,Equipe,Motor,Grid,Posicao,Situacao,Voltas,Tempo,Penalidade_Tempo,Gap,Intervalo,Motivo_Abandono,Pontos
+Rodada,GP,Data,Piloto_ID,Piloto,Número,Equipe_ID,Equipe,Motor,Grid,Posição,Situação,Voltas,Tempo,Penalidade_Tempo,Gap,Intervalo,Motivo_Abandono,Pontos
 1,Australian Grand Prix,2026-03-08,george-russell,George Russell,63,mercedes,Mercedes,Mercedes,1,1,Classificado,58.0,1:23:06.801,,,,,25
 1,Australian Grand Prix,2026-03-08,kimi-antonelli,Kimi Antonelli,12,mercedes,Mercedes,Mercedes,2,2,Classificado,58.0,1:23:09.775,,+2.974,+2.974,,18
 1,Australian Grand Prix,2026-03-08,charles-leclerc,Charles Leclerc,16,ferrari,Ferrari,Ferrari,4,3,Classificado,58.0,1:23:22.320,,+15.519,+12.545,,15
