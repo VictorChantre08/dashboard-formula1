@@ -8,7 +8,7 @@ Montei um painel interativo da temporada 2026 de Fórmula 1 a partir de dados ab
 
 ## Prévia
 
-**Visão geral.** Líder do campeonato, evolução dos pontos, construtores, fabricantes de motor, vencedores e pódio das últimas corridas.
+**Visão geral.** Líder do campeonato, taças dos campeões de pilotos e de construtores, evolução dos pontos, construtores com o emblema de cada equipe, fabricantes de motor, vencedores e pódio das últimas corridas.
 
 ![Visão geral](docs/img/01-visao-geral.png)
 
@@ -16,7 +16,7 @@ Montei um painel interativo da temporada 2026 de Fórmula 1 a partir de dados ab
 
 ![Pilotos](docs/img/02-pilotos.png)
 
-**Equipes.** Classificação de construtores, quem pontua dentro de cada equipe, motores e um mapa de calor com os pontos de cada fim de semana.
+**Equipes.** Classificação de construtores com o emblema de cada equipe, quem pontua dentro de cada equipe, motores e um mapa de calor com os pontos de cada fim de semana.
 
 ![Equipes](docs/img/03-equipes.png)
 
@@ -113,9 +113,10 @@ Depois abra `http://localhost:8000` no navegador.
 ### 1 · Visão geral
 
 - **Líder do campeonato:** pontos, vantagem sobre o segundo colocado e o aviso *Título decidido na R__*, que aparece quando a vantagem passa o máximo de pontos ainda em disputa.
+- **Campeões:** duas taças, uma para o campeão de pilotos e outra para o de construtores. A taça dourada aparece quando o título já está matematicamente decidido, com a etapa em que isso aconteceu. Enquanto o título está em aberto, a taça fica apagada e mostra o líder. Essa seção usa sempre a temporada inteira e não muda com o filtro de corridas.
 - **Cartões:** corridas no período, a próxima prova, quantas poles viraram vitória e quantos pilotos e equipes diferentes venceram.
 - **Evolução do campeonato:** pontos acumulados após cada etapa, com seleção de pilotos e visão em tabela.
-- **Construtores e fabricantes de motor:** pontos no período, com as equipes que usam cada motor.
+- **Construtores e fabricantes de motor:** pontos no período, com as equipes que usam cada motor. Cada equipe tem um emblema com a sigla e a cor dela.
 - **Quem venceu** e **Últimas corridas:** vitórias por piloto e pódio das seis corridas mais recentes (o *S* marca fim de semana de sprint).
 
 ### 2 · Pilotos
@@ -286,6 +287,7 @@ As tabelas se relacionam por `Rodada`, `Piloto_ID` e `Equipe_ID`, no esquema est
 - **Nomes sem acento no código, com acento nos arquivos.** Dentro do código, tabelas e colunas não levam acento (`Calendario`, `Posicao`), o que facilita digitar e buscar. Na hora de gravar, o `names.py` troca pelos nomes corretos (`Calendário`, `Posição`) nos CSVs, no Excel e no relatório de validação. Os nomes dos arquivos CSV também levam acento.
 - **Validação dentro do pipeline**, e não como passo manual: se os pontos não fecham, a execução falha.
 - **Painel sem framework e sem etapa de build.** HTML, CSS e JavaScript puros, com SVG inline. Ele abre em qualquer servidor estático e não usa bibliotecas externas. A única chamada externa é a fonte Inter, do Google Fonts. Sem ela, o painel usa a fonte do sistema.
+- **Emblemas e taças próprios.** Os logotipos oficiais das equipes são marcas registradas, então não os uso. Cada equipe tem um emblema desenhado em SVG, com a sigla sobre a cor dela (definido em `TEAM_STYLE`, dentro do `dashboard/index.html`). A taça também é um SVG genérico, e não a réplica do troféu oficial.
 - **Acessibilidade.** Cores fixas por piloto (os 8 primeiros), com tema claro e escuro pensados para daltonismo, e uma visão em tabela de cada gráfico para quem não depende de cor.
 
 ### Atualização automática

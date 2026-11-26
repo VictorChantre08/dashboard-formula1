@@ -202,6 +202,17 @@ footer{margin-top:28px;padding-top:16px;border-top:1px solid var(--line);color:v
 footer a{color:var(--ink)}
 .empty{padding:22px;text-align:center;color:var(--ink2)}
 @media (prefers-reduced-motion:no-preference){.tab,.chip,.seg-ctl button{transition:background-color .12s,color .12s}}
+
+.tb{flex:none;vertical-align:middle}
+.inl{display:inline-flex;align-items:center;gap:8px}
+.champs{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;margin-top:14px}
+.champ{display:flex;align-items:center;gap:16px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.champ .trophy{flex:none;width:76px;height:76px}
+.champ .k{font-size:12px;color:var(--ink2);font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+.champ .nm{font-size:21px;font-weight:700;letter-spacing:-.01em;margin:2px 0 4px}
+.champ .tm{display:flex;align-items:center;gap:8px;color:var(--ink2);font-size:13px;margin-bottom:8px}
+.champ.open .trophy{opacity:.55}
+@media (max-width:720px){.champs{grid-template-columns:minmax(0,1fr)}}
 </style>
 
 </head>
@@ -253,6 +264,36 @@ const dmy = iso => dm(iso) + '/' + iso.slice(0, 4);
 const median = a => { if (!a.length) return null; const b = [...a].sort((x, y) => x - y), m = b.length >> 1; return b.length % 2 ? b[m] : (b[m - 1] + b[m]) / 2; };
 const signed = n => (n > 0 ? '+' : n < 0 ? '−' : '') + f0(Math.abs(n));
 const plural = (n, one, many) => n === 1 ? one : many;
+
+/* ------------------------------------------------------------ emblemas das equipes e taças
+   Emblemas próprios (sigla sobre a cor da equipe). Não são os logotipos oficiais, que são marcas registradas. */
+const TEAM_STYLE = {
+  'mercedes': ['MER', '#1fa89a'], 'ferrari': ['FER', '#d8232a'], 'red-bull': ['RBR', '#1e3a8a'], 'mclaren': ['MCL', '#f58220'],
+  'racing-bulls': ['RB', '#4a6fd3'], 'alpine': ['ALP', '#2e86de'], 'haas': ['HAA', '#7d8186'], 'audi': ['AUD', '#9a1b25'],
+  'williams': ['WIL', '#1f6fdb'], 'aston-martin': ['AMR', '#0b7a5a'], 'cadillac': ['CAD', '#4b4f56']
+};
+function teamBadge(i, size = 22) {
+  const id = D.teams[i].id, st = TEAM_STYLE[id] || [D.teams[i].name.slice(0, 3).toUpperCase(), '#6b6a65'];
+  const c = st[1], rgb = [1, 3, 5].map(k => parseInt(c.slice(k, k + 2), 16)), lum = (0.299 * rgb[0] + 0.587 * rgb[1] + 0.114 * rgb[2]) / 255;
+  const fs = st[0].length > 2 ? 8.6 : 11;
+  return sv('svg', { class: 'tb', width: size, height: size, viewBox: '0 0 24 24', role: 'img', 'aria-label': 'Emblema ' + D.teams[i].name },
+    sv('rect', { x: 0.5, y: 0.5, width: 23, height: 23, rx: 6, fill: c }),
+    sv('text', { x: 12, y: 15, 'text-anchor': 'middle', 'font-size': fs, 'font-weight': 800, 'font-family': 'Inter,system-ui,sans-serif', fill: lum > 0.62 ? '#0b0b0b' : '#ffffff', text: st[0] }));
+}
+const mainTeam = a => [...a.teams.entries()].sort((x, y) => y[1] - x[1])[0]?.[0];
+let trophyN = 0;
+function trophy(won, label) {
+  const g = 'tg' + (++trophyN);
+  const fill = won ? `url(#${g})` : 'none', stroke = won ? '#a8741a' : 'var(--axis)';
+  return sv('svg', { class: 'trophy', viewBox: '0 0 64 64', role: 'img', 'aria-label': label },
+    won ? sv('defs', null, sv('linearGradient', { id: g, x1: 0, y1: 0, x2: 1, y2: 1 },
+      sv('stop', { offset: '0', 'stop-color': '#f7dc7a' }), sv('stop', { offset: '.55', 'stop-color': '#e3aa2c' }), sv('stop', { offset: '1', 'stop-color': '#b9801c' }))) : null,
+    sv('path', { d: 'M20 6h24v16c0 9-5.5 15-12 15S20 31 20 22z', fill, stroke, 'stroke-width': 2, 'stroke-linejoin': 'round' }),
+    sv('path', { d: 'M20 11h-8c0 9 3 14 9 15M44 11h8c0 9-3 14-9 15', fill: 'none', stroke, 'stroke-width': 2.4, 'stroke-linecap': 'round' }),
+    sv('path', { d: 'M28 37h8v8h-8z', fill, stroke, 'stroke-width': 2, 'stroke-linejoin': 'round' }),
+    sv('path', { d: 'M21 52c0-4 4-7 11-7s11 3 11 7v3H21z', fill, stroke, 'stroke-width': 2, 'stroke-linejoin': 'round' }),
+    won ? sv('path', { d: 'M32 12l2.2 4.6 5 .7-3.6 3.5.9 5-4.5-2.4-4.5 2.4.9-5-3.6-3.5 5-.7z', fill: '#fff6d6', opacity: .85 }) : null);
+}
 function niceTicks(max, count = 5) {
   const raw = max / count, p = Math.pow(10, Math.floor(Math.log10(raw))), f = raw / p;
   const step = (f <= 1 ? 1 : f <= 2 ? 2 : f <= 2.5 ? 2.5 : f <= 5 ? 5 : 10) * p, t = [];
@@ -461,7 +502,7 @@ function evolutionTable() {
 
 /* ------------------------------------------------------------ gráfico: barras de construtores */
 function rankBarsDraw(items, W, what) {
-  const rowH = 30, bh = 20, labelW = W < 420 ? 92 : 112, valW = 44;
+  const hasB = items.some(t => t.tid != null), rowH = 30, bh = 20, labelW = (W < 420 ? 92 : 112) + (hasB ? 26 : 0), valW = 44;
   const H = items.length * rowH + 4, max = Math.max(1, ...items.map(t => t.value)), x0 = labelW, span = Math.max(20, W - labelW - valW);
   const svg = sv('svg', { class: 'chart', width: W, height: H, viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': what + ': ' + items.map(t => `${t.label} ${t.value}`).join(', ') });
   svg.append(sv('line', { class: 'axl', x1: x0, x2: x0, y1: 0, y2: H }));
@@ -470,7 +511,8 @@ function rankBarsDraw(items, W, what) {
     const d = len < 1 ? '' : r < 1 ? `M${x0},${yy}h${len}v${bh}h${-len}z` : `M${x0},${yy}h${len - r}a${r},${r} 0 0 1 ${r},${r}v${bh - 2 * r}a${r},${r} 0 0 1 ${-r},${r}h${-(len - r)}z`;
     const g = sv('g', { tabindex: 0, 'aria-label': `${t.label}: ${t.value} pontos` },
       sv('rect', { x: 0, y: k * rowH, width: W, height: rowH, fill: 'transparent' }),
-      sv('text', { class: 'tk-strong', x: 0, y: yy + bh / 2 + 4, text: t.label }),
+      t.tid != null ? (() => { const b = teamBadge(t.tid, 20); b.setAttribute('x', 0); b.setAttribute('y', yy); return b; })() : null,
+      sv('text', { class: 'tk-strong', x: t.tid != null ? 26 : 0, y: yy + bh / 2 + 4, text: t.label }),
       d ? sv('path', { d, fill: 'var(--seq)' }) : null,
       sv('text', { class: 'lbl', x: x0 + len + 8, y: yy + bh / 2 + 4, text: f0(t.value) }));
     const on = e => tipShow(e.clientX, e.clientY, tipBody(t.label, t.sub, t.rows));
@@ -480,7 +522,7 @@ function rankBarsDraw(items, W, what) {
   });
   return svg;
 }
-const teamItems = T => T.map(t => ({ label: tn(t.i), value: t.pts, sub: D.teams[t.i].engine ? 'Motor ' + D.teams[t.i].engine : '',
+const teamItems = T => T.map(t => ({ tid: t.i, label: tn(t.i), value: t.pts, sub: D.teams[t.i].engine ? 'Motor ' + D.teams[t.i].engine : '',
   rows: [{ l: 'Pontos', v: f0(t.pts) }, { l: 'Vitórias', v: f0(t.w) }, { l: 'Pódios', v: f0(t.p) }, { l: 'Abandonos', v: f0(t.dnf) }] }));
 function aggEngines(T) {
   const m = new Map();
@@ -507,7 +549,7 @@ function viewGeral() {
 
   const hero = h('section', { class: 'card hero', 'aria-label': 'Líder do campeonato' },
     h('div', { class: 'eyebrow', text: full ? `Líder do campeonato · após R${state.to} ${rd(state.to).name}` : `Mais pontos de R${state.from} a R${state.to}` }),
-    h('div', { class: 'who', text: lead.pts ? dn(lead.i) : '—' }), h('div', { class: 'team', text: teamLabel(lead) }),
+    h('div', { class: 'who', text: lead.pts ? dn(lead.i) : '—' }), h('div', { class: 'team inl' }, lead.pts && mainTeam(lead) != null ? teamBadge(mainTeam(lead), 20) : null, teamLabel(lead)),
     h('div', { class: 'hero-num' }, f0(lead.pts), h('small', { text: 'pts' })),
     h('div', { class: 'pills' },
       h('span', { class: 'pill', text: `${signed(lead.pts - second.pts)} sobre ${dn(second.i)}` }),
@@ -519,11 +561,28 @@ function viewGeral() {
   const winners = new Set(rs.filter(x => x.pos === 1).map(x => x.d)), winTeams = new Set(rs.filter(x => x.pos === 1).map(x => x.t));
   const tiles = h('div', { class: 'tiles' },
     tile('Corridas no período', [`${doneRounds.length} `, h('small', { text: `de ${total}` })], next && state.to === last ? `Próxima: ${next.name}, ${dm(next.date)}` : `Até R${state.to} · ${rd(state.to).name}`),
-    tile('Construtores', T[0].pts ? tn(T[0].i) : '—', [`${f0(T[0].pts)} pts · ${signed(T[0].pts - T[1].pts)} sobre ${tn(T[1].i)}`, tDecided ? h('div', null, h('span', { class: 'pill good', style: 'margin-top:6px' }, checkIcon(), `Decidido na R${clT.round}`)) : null]),
+    tile('Construtores', T[0].pts ? h('span', { class: 'inl' }, teamBadge(T[0].i, 28), tn(T[0].i)) : '—', [`${f0(T[0].pts)} pts · ${signed(T[0].pts - T[1].pts)} sobre ${tn(T[1].i)}`, tDecided ? h('div', null, h('span', { class: 'pill good', style: 'margin-top:6px' }, checkIcon(), `Decidido na R${clT.round}`)) : null]),
     tile('Pole e vitória', [`${poleWins} `, h('small', { text: `de ${poleN}` })], 'corridas em que a pole virou vitória'),
     tile('Vencedores diferentes', [`${winners.size} `, h('small', { text: plural(winners.size, 'piloto', 'pilotos') })], `de ${winTeams.size} ${plural(winTeams.size, 'equipe', 'equipes')}`));
 
   const grid1 = h('div', { class: 'grid g-hero' }, hero, tiles);
+
+  // campeões (sempre sobre a temporada inteira, independente do filtro)
+  const allS = aggDrivers(R).sort(cmpCnt), allT = aggTeams(R).sort(cmpCnt), cD = clinch('driver'), cT = clinch('team');
+  const leftAll = rounds.filter(x => x.r > last);
+  const champCard = (kind, won, cl, name, team, pts, second) => h('div', { class: 'champ' + (won ? '' : ' open') },
+    trophy(won, won ? `Taça de campeão de ${kind}` : `Taça ainda em disputa: ${kind}`),
+    h('div', null,
+      h('div', { class: 'k', text: `Campeão de ${kind}` }),
+      h('div', { class: 'nm', text: won ? name : 'Em disputa' }),
+      h('div', { class: 'tm' }, team != null ? teamBadge(team, 20) : null, won ? (kind === 'pilotos' ? teamLabel(allS[0]) + ' · ' : '') + `${f0(pts)} pts` : `Líder: ${name} · ${f0(pts)} pts`),
+      won ? h('span', { class: 'pill good' }, checkIcon(), `Título decidido na R${cl.round}`) : h('span', { class: 'pill', text: `${signed(pts - second)} sobre o segundo` })));
+  const champs = h('section', { class: 'card', style: 'margin-bottom:16px', 'aria-label': 'Campeões da temporada' },
+    h('div', { class: 'card-head' }, h('div', null, h('h2', { text: `Campeões de ${D.meta.year}` }),
+      h('p', { class: 'sub', text: leftAll.length ? `Título matematicamente decidido, sem esperar o fim do ano. A temporada segue até ${leftAll[leftAll.length - 1].name}.` : 'Temporada encerrada.' }))),
+    h('div', { class: 'champs' },
+      champCard('pilotos', !!cD, cD, dn(allS[0].i), mainTeam(allS[0]), allS[0].pts, allS[1].pts),
+      champCard('construtores', !!cT, cT, tn(allT[0].i), allT[0].i, allT[0].pts, allT[1].pts)));
 
   // evolução
   const chips = h('div', { class: 'chips', role: 'group', 'aria-label': 'Pilotos no gráfico' },
@@ -567,7 +626,7 @@ function viewGeral() {
       h('span', { class: 'tri' }, top.map((x, i) => i === 0 ? h('b', { text: D.drivers[x.d].abbr }) : h('span', { text: D.drivers[x.d].abbr }))));
   });
   const recCard = h('section', { class: 'card' }, h('div', { class: 'card-head' }, h('div', null, h('h2', { text: 'Últimas corridas' }), h('p', { class: 'sub', text: 'Pódio de cada GP, do vencedor (em negrito) ao terceiro.' }))), recent);
-  return [grid1, grid2, h('div', { class: 'grid g-half' }, winCard, recCard)];
+  return [grid1, champs, grid2, h('div', { class: 'grid g-half' }, winCard, recCard)];
 }
 
 /* ------------------------------------------------------------ pilotos */
@@ -650,7 +709,7 @@ function viewEquipes() {
   const maxPts = Math.max(1, ...T.map(t => t.pts));
   const cols = [
     { k: 'rank', label: '#', num: true, sort: true, val: t => t.rank, cell: t => h('span', { class: 'posb' + (t.rank === 1 ? ' p1' : ''), text: String(t.rank) }) },
-    { k: 'name', label: 'Equipe', sort: true, val: t => tn(t.i), cell: t => h('span', null, h('span', { class: 'name', text: tn(t.i) }), h('span', { class: 'under', text: D.teams[t.i].engine ? 'Motor ' + D.teams[t.i].engine : '' })) },
+    { k: 'name', label: 'Equipe', sort: true, val: t => tn(t.i), cell: t => h('span', { class: 'inl' }, teamBadge(t.i, 26), h('span', null, h('span', { class: 'name', text: tn(t.i) }), h('span', { class: 'under', text: D.teams[t.i].engine ? 'Motor ' + D.teams[t.i].engine : '' }))) },
     { k: 'pts', label: 'Pts', num: true, sort: true, val: t => t.pts, cell: t => h('span', { class: 'ptsbar' }, h('span', { class: 'b', style: `width:${Math.max(2, t.pts / maxPts * 56)}px` }), h('b', { text: f0(t.pts) })) },
     { k: 'w', label: 'Vit.', num: true, sort: true, val: t => t.w, cell: t => t.w ? String(t.w) : h('span', { class: 'dash', text: '–' }) },
     { k: 'p', label: 'Pód.', num: true, sort: true, val: t => t.p, cell: t => t.p ? String(t.p) : h('span', { class: 'dash', text: '–' }) },
